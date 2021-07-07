@@ -18,35 +18,53 @@ In this lab, you will access Azure Active Directory.  Additionally, you will cre
 
 1. Open Microsoft Edge.
 
-2. In the address bar enter **admin.microsoft.com** to access the Microsoft 365 admin center.
+1. In the address bar enter **admin.microsoft.com** to access the Microsoft 365 admin center.
 
-3. Sign in with your admin credentials. 
-    1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+1. Sign in with the credentials provided in the **Enviornment Details** Tab. 
+    1. In the Sign in window enter **admin@xxxxx.onmicrosoft.com** (where xxxxx is your unique tenant ID provided by your lab hosting provider) then select **Next**.
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
-4. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-5. Under Admin centers, select **Azure Active Directory** (you may need to scroll down).  A new browser page opens to the My Dashboard page of the Azure Active Directory admin center. From the dashboard’s main windows, you will see several tiles, including the Organization’ Identity tile (Contoso, the tenant and the Azure AD edition), a tile for users and groups, and more.
+   ![](../Images/home-page.png)
 
-6. From the left navigation pane, under favorites select **Azure Active Directory**.  In the main window you will see another navigation panel which lists all the services that are available in Azure AD. To the right, you will see information about the Contoso tenant and links to identity types you can create and featured services.  
+1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-7. Now open a new browser window and in the address bar, enter **portal.azure.com**.  Since you are already signed in as admin@WWLxZZZZZZ.onmicrosoft.com and you originally used those same credentials to redeem your Azure pass, you should be logged in as admin when you access the Azure portal.  You can verify this by checking the email on the top-right corner of the page and hovering your mouse over the user icon.
+1. Under Admin centers, select **Azure Active Directory** (you may need to scroll down).  
 
-8. The Azure portal’s landing page shows Azure services, including Azure Active Directory, VMs, storage accounts, databases, and much more.  Select **Azure Active Directory**.  
 
-9. You are now seeing the Azure Active Directory for your Microsoft 365 Contoso tenant.    Whichever approach you use to access Azure Active Directory services (the Microsoft 365 admin portal or the Azure portal) you end up in the same place – the Contoso Azure Active Directory where you can administer all the Azure AD services.
+   ![](../Images/aad.png)
 
-10. Keep this browser page open for the next task.
+1. A new browser page opens to the My Dashboard page of the Azure Active Directory admin center. From the dashboard’s main windows, you will see several tiles, including the Organization’ Identity tile ( the tenant and the Azure AD edition), a tile for users and groups, and more.
+
+   ![](../Images/aad-home.png)
+
+1. From the left navigation pane, under favorites select **Azure Active Directory**.  In the main window you will see another navigation panel which lists all the services that are available in Azure AD. To the right, you will see information about the tenant and links to identity types you can create and featured services.  
+
+   ![](../Images/add-tenant.png)
+
+1. Now open a new browser window and in the address bar, enter **portal.azure.com**.  Since you are already signed in as admin@xxxxx.onmicrosoft.com and you originally used those same credentials to redeem your Azure pass, you should be logged in as admin when you access the Azure portal.  You can verify this by checking the email on the top-right corner of the page and hovering your mouse over the user icon.
+
+   ![](../Images/azure-portal.png)
+
+1. The Azure portal’s landing page shows Azure services, including Azure Active Directory, VMs, storage accounts, databases, and much more.  Click on **View** below the **Manage Azure Active Directory**.
+
+   ![](../Images/azure-portal-home.png)
+
+1. You are now seeing the Azure Active Directory for your Microsoft 365 tenant. Whichever approach you use to access Azure Active Directory services (the Microsoft 365 admin portal or the Azure portal) you end up in the same place – the Azure Active Directory where you can administer all the Azure AD services.
+
+   ![](../Images/azure-portal-aad.png)
 
 
 #### Task 2:  In this task, you’ll learn how to create a new user in Azure Active Directory and explore some of services that can be managed at the user level.
 
-1. Go to the Contoso – Microsoft Azure tab that is open on your browser. If you previously closed the tab, open a browser page and in the address bar, enter portal.azure.com and select Azure Active Directory.  You should be logged in as admin, in the Azure portal, if not, sign back in.
+1. In Azure Active Directory Overview page, Click on the **Users** blade under the manage section
 
-2. From the left navigation pane, select **Users**.  Notice that your tenant is already configured with users.
+   ![](../Images/azure-portal-aad-users.png)
 
-3. From the top of the page, select **+ New user**.
+2. From the left navigation pane, select **Users**. Notice that your tenant is already configured with users. Select **+ New user** on the top of the page.
+
+   ![](../Images/aad-add-user.png)
 
 4. **Create User** should already be selected, if not select that option.
 
@@ -60,11 +78,15 @@ In this lab, you will access Azure Active Directory.  Additionally, you will cre
 
     4. Last name: **Perez**.
 
+   ![](../Images/aad-create-user.png)
+
 6. Populate the **Password** fields as follows:
 
     1. Select **Let me create the password**.
 
     1. Initial password: **Naja8996**. When Sara signs-in for the first time, she will be prompted to change her password.
+
+   ![](../Images/aad-user-password.png)
 
 7. Configure **Groups and roles**.
 
@@ -72,7 +94,11 @@ In this lab, you will access Azure Active Directory.  Additionally, you will cre
 
     2. Select **Operations**, you may need to scroll down, then press **Select**. Notice how the text next to groups has been updated to reflect 1 groups selected.  
 
+   ![](../Images/aad-user-group.png)
+
     3. Next to Roles, select **User**. The list of Directory roles appears.  Scroll down to view the various built-in roles, to view the various roles, but don’t change the user role.  Close out of this window by select the **X** on the top right-hand corner of the page.
+
+   ![](../Images/aad-user-role.png)
 
 8. Configure **Settings**
 
@@ -80,11 +106,17 @@ In this lab, you will access Azure Active Directory.  Additionally, you will cre
 
     1. Usage location: **United States** (select the drop-down then scroll down to find this option).  Configuring usage location is required for assigning licenses.
 
+   ![](../Images/aad-user-settings.png)
+
 9. From the bottom of the page, select the **Create** button.
+
+   ![](../Images/aad-user-create.png)
 
 10. Verify the user appears on the user list (names are listed in alphabetical order).
 
 11. From the user list select the user you just created, **Sara Perez**.  The profile page opens.
+
+  ![](../Images/add-review-user.png)
 
 12. The left navigation panel shows the various options that can be configured for the user.  Select **Groups**.  Here you can see additional information about the group.  Verify the Operations group is listed (it may take several minutes for the group assignment to show up).  Note:  you will also see the Contoso group, although we only assigned one group when we created the user.  This is a result of a preconfigured policy, in the tenant, that automatically assigns new users to the Contoso group.
 
@@ -110,7 +142,7 @@ In this lab, you will access Azure Active Directory.  Additionally, you will cre
 
 2. In the address bar enter **login.microsoft.com**.
 
-3. Sign in as **sara@WWLxZZZZZ.onmicrosoft.com**, (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider).
+3. Sign in as **sara@xxxxx.onmicrosoft.com**, (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider).
 
 4. Enter the temporary password **Naja8996**.
 
