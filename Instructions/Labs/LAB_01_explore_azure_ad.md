@@ -25,13 +25,11 @@ In this lab, you will access Azure Active Directory.  Additionally, you will cre
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
-
    ![](../Images/home-page.png)
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
 1. Under Admin centers, select **Azure Active Directory** (you may need to scroll down).  
-
 
    ![](../Images/aad.png)
 
@@ -55,8 +53,26 @@ In this lab, you will access Azure Active Directory.  Additionally, you will cre
 
    ![](../Images/azure-portal-aad.png)
 
+#### Task 2: Creating a basic group
 
-#### Task 2:  In this task, you’ll learn how to create a new user in Azure Active Directory and explore some of services that can be managed at the user level.
+1. On the Active Directory page, select Groups and then select New group.
+
+   ![](../Images/aad-new-group.png)
+
+1. Populate the **New Group** fields as follows and Select Create
+
+    1. Group type: **Microsoft 365**.
+
+    2. Group name: **Operations**.
+
+    3. Group email address: **Leave Default**.
+
+    4. Group description: **Add an optional description to your group**.
+
+   ![](../Images/aad-group-create.png)
+   
+
+#### Task 3:  In this task, you’ll learn how to create a new user in Azure Active Directory and explore some of services that can be managed at the user level.
 
 1. In Azure Active Directory Overview page, Click on the **Users** blade under the manage section
 
@@ -118,39 +134,51 @@ In this lab, you will access Azure Active Directory.  Additionally, you will cre
 
   ![](../Images/add-review-user.png)
 
-12. The left navigation panel shows the various options that can be configured for the user.  Select **Groups**.  Here you can see additional information about the group.  Verify the Operations group is listed (it may take several minutes for the group assignment to show up).  Note:  you will also see the Contoso group, although we only assigned one group when we created the user.  This is a result of a preconfigured policy, in the tenant, that automatically assigns new users to the Contoso group.
+12. The left navigation panel shows the various options that can be configured for the user.  Select **Groups**.  Here you can see additional information about the group.  Verify the Operations group is listed (it may take several minutes for the group assignment to show up).  Note:  you will also see the another group, although we only assigned one group when we created the user.  This is a result of a preconfigured policy, in the tenant, that automatically assigns new users to the group.
+
+  ![](../Images/aad-group-review.png)
 
 13. From the left navigation panel select **Licenses**.  Notice that there are no license assignments found for this user.  
 
 14. To add a license select **+ Assignments** from the top of the main window.
 
-15. Under Select licenses, select **Office 365 E3** and **Windows 10 Enterprise E3** then select the **Save** button on the bottom of the screen. A notification on the top right corner of the screen should show that license assignments succeeded.
+  ![](../Images/aad-licenses.png)
+
+15. Under Select licenses, select **Office 365 E3** then select the **Save** button on the bottom of the screen. A notification on the top right corner of the screen should show that license assignments succeeded.
+
+  ![](../Images/aad-license-1.png)
 
 16. Select the **X** on the top right of the screen to close the License assignments window.
 
 17. Select the **Refresh icon** at the top of the page to confirm the license assignments.
 
-18. Return to the Contoso Overview Azure Active directory page, by selecting **Contoso** on the top-left of the screen (the bread-crumb), above where it says Sara Perez | Licenses.
+18. Return to the Azure Active Directory Overview page
 
 19. You have successfully created and configured a user in Azure Active Directory.
 
 20.	Sign out from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
 
-#### Task 3:  In this task, you will sign in as Sara Perez, for the first time.
+#### Task 4:  In this task, you will sign in as Sara Perez, for the first time.
 
 1. Open Microsoft Edge.
 
 2. In the address bar enter **login.microsoft.com**.
 
-3. Sign in as **sara@xxxxx.onmicrosoft.com**, (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider).
+3. Sign in as **sara@xxxxx.onmicrosoft.com**, (where xxxxx is your unique tenant ID provided by your lab hosting provider).
 
 4. Enter the temporary password **Naja8996**.
+
+  ![](../Images/login-page.png)
 
 5. You are now prompted to Update your password. In the Current password field, enter **Naja8996**.
 
 6. In the New password field enter, **SC900-Lab**.  In the Confirm your password field enter SC900-Lab, then select Sign in.  Note: As a best practice, a more secure password should be used. This password is chosen, for expediency and only for the purpose of this lab.
 
+  ![](../Images/update-password.png)
+
 7. You should now be successfully signed-in to Microsoft 365.
+
+  ![](../Images/office-365-home.png)
 
 8. **Sign out** from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
 
@@ -158,5 +186,3 @@ In this lab, you will access Azure Active Directory.  Additionally, you will cre
 
 #### Review
 In this lab, you started your initial exploration of Azure AD. Since subscribers to Microsoft 365 are automatically using Azure AD, you found that you access Azure AD features and services through either the Microsoft 365 admin portal or through the Azure portal.  Whichever approach you prefer to get to the same place.  You also walked through the process of creating a new user and the different setting that can be configured, including groups to which the user can be assigned, the availability of roles, and assigning of user licenses..
-
-
