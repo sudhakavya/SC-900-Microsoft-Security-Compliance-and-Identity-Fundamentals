@@ -21,7 +21,7 @@ In this lab, you will access Azure Active Directory.  Additionally, you will cre
 1. In the address bar enter **admin.microsoft.com** to access the Microsoft 365 admin center.
 
 1. Sign in with the credentials provided in the **Enviornment Details** Tab. 
-    1. In the Sign in window enter **admin@xxxxx.onmicrosoft.com** (where xxxxx is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+    1. In the Sign in window enter **odl_user_xxxxx@xxxxx.onmicrosoft.com** (where xxxxx is your unique tenant ID provided by your lab hosting provider) then select **Next**.
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
@@ -41,7 +41,7 @@ In this lab, you will access Azure Active Directory.  Additionally, you will cre
 
    ![](../Images/add-tenant.png)
 
-1. Now open a new browser window and in the address bar, enter **portal.azure.com**.  Since you are already signed in as admin@xxxxx.onmicrosoft.com and you originally used those same credentials to redeem your Azure pass, you should be logged in as admin when you access the Azure portal.  You can verify this by checking the email on the top-right corner of the page and hovering your mouse over the user icon.
+1. Now open a new browser window and in the address bar, enter **portal.azure.com**.  Since you are already signed in as odl_user_xxxxx@xxxxx.onmicrosoft.com and you originally used those same credentials to redeem your Azure pass, you should be logged in as admin when you access the Azure portal.  You can verify this by checking the email on the top-right corner of the page and hovering your mouse over the user icon.
 
    ![](../Images/azure-portal.png)
 

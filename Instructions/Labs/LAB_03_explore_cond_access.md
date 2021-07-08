@@ -16,8 +16,8 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 
 1. Open Microsoft Edge.  In the address bar enter **portal.azure.com**.
 
-2. Sign in with your admin credentials.
-    1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+2. Sign in with the credentials provided in the **Enviornment Details** Tab. 
+    1. In the Sign in window enter **odl_user_xxxxx@xxxxx.onmicrosoft.com** (where xxxxx is your unique tenant ID provided by your lab provider) then select **Next**.
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
@@ -28,6 +28,8 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 5. Select **Debra Berger** from the list of users.
 
 6. Select **Reset password** from the top of the page. Since you have not previously signed in as Debra Berger you don’t know her password and will need to reset the password.
+
+   ![](../Images/user-debra.png)
 
 7. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
 
@@ -44,9 +46,15 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 
 2. From the left navigation panel, select **Security**.
 
+   ![](../Images/aad-security.png)
+
 3. From the left navigation panel, select **Conditional Access**.
 
-4. The Conditional Access Policies screen is displayed. Any existing Conditional Access Policies are listed here. Select**New policy**.
+   ![](../Images/conditional-access.png)
+
+4. The Conditional Access Policies screen is displayed. Any existing Conditional Access Policies are listed here. Select **New policy**.
+
+   ![](../Images/new-policy.png)
 
 5. In the Name field, enter **MFA Test Policy**.
 
