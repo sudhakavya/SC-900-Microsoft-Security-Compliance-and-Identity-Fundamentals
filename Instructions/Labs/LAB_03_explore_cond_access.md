@@ -66,11 +66,15 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 
 9. In the Search bar, enter **Debra**.  Select **Debra Berger** from beneath the search bar, then press the **Select** button on the bottom of the page.  Note, a common practice is to assign the policy to users in a group.  For the purpose expediency with this lab, we will assign the policy to a specific user. 
 
+   ![](../Images/select-user.png)
+
 10. Under Cloud apps or actions, select **No cloud apps or actions selected**.
 
 11. You will now see the option to Include or Exclude cloud apps or user actions.  Make sure **Cloud apps** is highlighted and **Include** is selected (underlined), then select **Select apps**.  The window to Select Cloud apps opens.
 
 12. In the search bar, enter **Azure**.  From the search results that appear under the search box, select **Microsoft Azure Management**, then press **Select** at the bottom of the page.  Notice the warning.  
+
+   ![](../Images/select-azure.png)
 
 13. Under Conditions, select **0 conditions selected**.  Notice the different options you can configure.  Through the policy, you can control user access based on signals from conditions like risk, device platform, location, client apps, or device state.  For example, you could include a condition for the policy to apply for any location except selected or trusted locations such as your headquarters’ network.  For this policy, do not set any conditions.
 
@@ -79,6 +83,8 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 15. The Grant window opens.  Ensure **Grant access** is selected and then select **Require multi-factor authentication**.  Under the section For multiple controls, leave the default **Require all the selected controls**.  Press **Select** at the bottom of the page.
 
 16. AT the bottom of the page, Under Enable policy, select **On**, then press the **Create button**.
+
+   ![](../Images/grant-access.png)
 
 17. After a few seconds, the MFA Pilot policy should appear in the list of conditional access policies (if needed, select **Refresh** at the top of the page).
 
@@ -89,20 +95,34 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 1. Open Microsoft Edge.  In the address bar of the browser, enter **https://login.microsoftonline.com/**.
 
 1. Sign in as Debra Burger,
-    1. In the Sign in window enter **DebraB@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+    1. In the Sign in window enter **DebraB@WWLxxxxx.onmicrosoft.com** (where xxxxxx is your unique tenant ID provided by your lab hosting provider) then select **Next**.
     1. Enter the password you noted in the earlier task. Select **Sign in**.
     1. Since the password provided when you, as the admin, reset the password is temporary you need to update your password (this is not part of MFA).  Enter the current password, then for the new password and confirm password fields enter **SC900-Lab**.
     1. When prompted to stay signed- in, select **Yes**
 
 1. You should be successfully logged in to your Microsoft 365 account.  MFA was not required for this application as it is not part of the policy.
 
+   ![](../Images/office.com.png)
+
 1. Now you will attempt to sign in to an application that meets the criteria for MFA.  Open Microsoft Edge and in the address bar, enter https://portal.azure.com.
 
 1. You will see a window indicating, More information required.  Select **Next**.  Note, this will initiate the MFA registration process, as this is the first time you are accessing the cloud app that that was identified in the conditional access policy.  This registration process is required only once.   An alternative to having the user go through the registration process is to have the admin configure the authentication method to use.
 
+   ![](../Images/more-info-debrab.png)
+
 1. In the Keep your account secure window, you have the option to select the method to use for MFA.  Microsoft Authenticator is one option. For expediency in this lab exercise, you will choose a different method.  Select **I want to setup a different method**.  From the Chose a different method pop-up window, select the **drop-down arrow** and select **Phone** then select **Confirm**.
 
+   ![](../Images/keep-secure.png)
+
 1. In the window that opens, ensure your country is selected then enter mobile phone number you wish to use and select, ensure that **Text me a code** is selected, then press **Next**.  The screen will display, "SMS verified. You phone was registered successfully".  Select **Next**. then select **Done**.  this completes the one-time registration process.
+
+   ![](../Images/keep-acc-secure.png)
+
+   ![](../Images/enter-code.png)
+
+   ![](../Images/sms-verified.png)
+
+   ![](../Images/default-sign-in.png)
 
 1. You will likely get a message indicating that your sign-in timed out.  Just enter the password **SC900-Lab** and select **Sign in**.
 
