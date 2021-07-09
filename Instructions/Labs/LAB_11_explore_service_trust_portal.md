@@ -19,11 +19,15 @@ In this lab, you will explore the features and content available from the Servic
 
    ![](../Images/module4/lab11/1-1.png)
 
-1. In the address bar enter **https://servicetrust.microsoft.com/**.  This will bring you to the landing page for the Service Trust Portal. The Service Trust Portal contains details about Microsoft's implementation of controls and processes that protect our cloud services and the customer data therein. 
+1. In the same window open another tab and enter **https://servicetrust.microsoft.com/**.  This will bring you to the landing page for the Service Trust Portal. The Service Trust Portal contains details about Microsoft's implementation of controls and processes that protect our cloud services and the customer data therein. 
 
-1. To access some of the resources on the Service Trust Portal, you must log in as an authenticated user with your Microsoft cloud services account and review and accept the Microsoft Non-Disclosure Agreement for Compliance Materials. On the top, right hand corner of the landing page the for the Service Trust Portal, you will see the option to Sign in.  **Sign in**, using your admin credentials and, if prompted, select **Agree** to accept the Microsoft Non-Disclosure Agreement for Compliance Materials.
+1. To access some of the resources on the Service Trust Portal, you must log in as an authenticated user (i.e. the user account with which we have signed into azure.) with your Microsoft cloud services account and review and accept the Microsoft Non-Disclosure Agreement for Compliance Materials. On the top, right hand corner of the landing page the for the Service Trust Portal, you will see the option to Sign in.  **Sign in**, using your admin credentials and, if prompted, select **Agree** to accept the Microsoft Non-Disclosure Agreement for Compliance Materials.
+
+    ![](../Images/module4/lab11/1-1.png)
 
 1. Scroll down on the page and notice the links to Audit reports, Documents & Resources and more.  Select **View all Audit Reports**.
+
+   ![](../Images/module4/lab11/2-1.png)
 
 1. Scroll down to the middle of the page and you will see New and Archived Audit Reports.  You can select from a variety of categories, including Compliance Guides, ENS Audit Reports and Certificates, FAQ and White Papers, and more.
 
