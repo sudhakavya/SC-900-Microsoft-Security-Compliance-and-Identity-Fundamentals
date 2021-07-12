@@ -15,17 +15,17 @@ In this lab, you will explore the Microsoft 365 compliance center home page and 
 1. Sign in with your admin credentials.
     1. In the Sign in window, Get the user credentials provided in the environment details page and paste the value in the username section and then select **Next**.
      
-     ![](../Images/module4/lab11/1-1.png)
+        ![](../Images/module4/lab11/1-1.png)
      
-     ![](../Images/module4/lab12/main-2.png)
+        ![](../Images/module4/lab12/main-2.png)
     
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     
-     ![](../Images/module4/lab12/main-3.png)
+        ![](../Images/module4/lab12/main-3.png)
      
     1. When prompted to protect the account, Please select **Skip for now**.
 
-    ![](../Images/module4/lab12/main-4.png)
+        ![](../Images/module4/lab12/main-4.png)
      
     1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
