@@ -13,7 +13,7 @@ In this lab, you will explore the Microsoft 365 compliance center home page and 
      ![](../Images/module4/lab12/main-1.png)
 
 1. Sign in with your admin credentials.
-    1. In the Sign in window, enter the user credentials provided in the environment details page.  then select **Next**.
+    1. In the Sign in window, Get the user credentials provided in the environment details page and paste the value in the username section and then select **Next**.
      
      ![](../Images/module4/lab11/1-1.png)
      
