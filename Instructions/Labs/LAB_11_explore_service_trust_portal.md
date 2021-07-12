@@ -57,6 +57,10 @@ In this lab, you will explore the features and content available from the Servic
 
 1. Now verify that the document is in fact in your library. Scroll up to get to get back to the top of page.  From the top navigation, select **My Library**.  If you don’t see the option for My Library, select More, then select My Library.
 
+   ![](../Images/module4/lab11/7.png)
+   
+   ![](../Images/module4/lab11/7-1.png)
+
 1. From the top of the Service Trust Portal page, select **Trust Documents** and note the options. Explore the information available for each of the links under Trust Documents. Selecting Audit Reports directs you to the same location that you explored in the previous task.  Explore the information available for each of the links.
 
 1. From the top of the page, select **Industries & Regions**.  Choose **Regional Solutions**. Notice the different Regions listed.  Select **United Kingdom**.  
