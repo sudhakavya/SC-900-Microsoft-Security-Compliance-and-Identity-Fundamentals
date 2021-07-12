@@ -1,10 +1,3 @@
----
-lab:
-    title: 'Explore sensitivity labels in Microsoft 365'
-    module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
----
-
-
 # Lab: Explore sensitivity labels in Microsoft 365
 
 ## Lab scenario
@@ -15,12 +8,25 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
 
 #### Task 1: In this task you will gain an understanding of what sensitivity labels can do by going through the settings for an existing sensitivity label that have been created and the corresponding policy to publish the label.
 
-1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
+1.	Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
+
+     ![](../Images/module4/lab12/main-1.png)
 
 1. Sign in with your admin credentials.
-    1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+    1. In the Sign in window, Get the user credentials provided in the environment details page and paste the value in the username section and then select **Next**.
+     
+        ![](../Images/module4/lab11/1-1.png)
+     
+        ![](../Images/module4/lab12/main-2.png)
     
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
+    
+        ![](../Images/module4/lab12/main-3.png)
+     
+    1. When prompted to protect the account, Please select **Skip for now**.
+
+        ![](../Images/module4/lab12/main-4.png)
+     
     1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
