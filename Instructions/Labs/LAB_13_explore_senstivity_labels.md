@@ -39,11 +39,11 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
     
     ![](../Images/module4/lab13/2-1.png)
 
-1. From the left navigation panel of the Microsoft 365 compliance center, select **Show all**.
-
-1. In the left navigation panel, under solutions, select **Information protection**.
+1. From the left navigation panel of the Microsoft 365 compliance center, under Solutions, select **Information protection**.
 
 1. In the yellow information box, indicates that Your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint.  Select Turn on now.  Once you do this, there can be a delay for the setting to propagate through the system.
+
+    ![](../Images/module4/lab13/3.png)
 
 1. Verify you that the **Labels** tab on the top of the page is selected (underlined).
 
