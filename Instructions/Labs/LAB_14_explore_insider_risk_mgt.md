@@ -33,25 +33,47 @@ In this lab, you will walk through the process of setting up an insider risk pol
 
     ![](../Images/module4/lab14/new1.png)
 
-1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 Defender portal.  
+1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 Defender portal.
+
+    ![](../Images/module4/lab14/new2.png)
 
 1. From the left navigation pane of the Microsoft 365 Defender portal, select **Permissions & roles**.  You may need to scroll down to see this option.
 
 1. From the Permissions & roles page, under **Email & collaboration roles** select **Roles**.
 
-1. In the search bar, enter **Insider risk** then select the search icon (magnifying glass).  Notice the five roles that show up.  Each of these has different access levels.  Select **Insider risk management**. 
+    ![](../Images/module4/lab14/new3.png)
 
-1. In the window that opens, next to where it says Members, select **Edit**.
+1. In the search bar, enter **Insider risk** then select the search icon (magnifying glass).  Notice the five roles that show up.  Each of these has different access levels.  Select **Insider risk management**.
+
+    ![](../Images/module4/lab14/new4.png)
+    
+    ![](../Images/module4/lab14/new5.png)
+
+1. In the window that opens, next to where it says Members, select **Edit**. you may need to scroll to find it.
+
+    ![](../Images/module4/lab14/new6.png)
 
 1. To add members to this role group, select **Choose members**.
 
+    ![](../Images/module4/lab14/new7.png)
+
 1. Select **+ Add** from the top of the page.
+
+    ![](../Images/module4/lab14/new8.png)
 
 1. From the list of names, select **MOD Administrator**, **Megan Bowen** then select **Add** at the bottom of the page, then select **Done** at the bottom of the page.
 
+    ![](../Images/module4/lab14/new9.png)
+    
+    ![](../Images/module4/lab14/new10.png)
+
 1. Verify the added members is correct then select **Save**.
 
+    ![](../Images/module4/lab14/new11.png)
+
 1. From the bottom of the Insider Risk Management window, select **Close**.
+
+    ![](../Images/module4/lab14/new12.png)
 
 1. Keep this browser tab open, as you will come back to it in a subsequent task.
 
