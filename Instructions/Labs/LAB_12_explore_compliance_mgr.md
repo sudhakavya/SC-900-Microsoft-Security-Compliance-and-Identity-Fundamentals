@@ -44,7 +44,10 @@ In this lab, you will explore the Microsoft 365 compliance center home page and 
      ![](../Images/module4/lab12/2.png)
      
 1. You can add cards, by selecting **+ Add cards**.  The Add cards to your home page window opens.  Place your mouse cursor over the Solution catalog card shown in this window and drag it over to the location on your home screen where you want the card to be positioned.
-10. From the left navigation panel of the Microsoft 365 compliance center home page, notice that under Solutions only Catalog is displayed.  From the left navigation panel, select **...Show all**.  Notice how all the additional solutions appear under the solutions section.  
+
+     ![](../Images/module4/lab12/3.png)
+     
+1. From the left navigation panel of the Microsoft 365 compliance center home page, notice that under Solutions only Catalog is displayed.  From the left navigation panel, select **...Show all**.  Notice how all the additional solutions appear under the solutions section.  
 1. Select **Show less** to hide.
 1. As the compliance admin, there may be a set of solutions that you manage for our organization and that you want to have always listed on the navigation panel.  To customize to your preferences select **Customize navigation**.  
 1. From the Customize your navigation pane window, select **Audit**, **Data loss prevention** and **eDiscovery**.  Select **Save** on the bottom of the window.  Notice how the Solutions section of the navigation panel has been updated.
