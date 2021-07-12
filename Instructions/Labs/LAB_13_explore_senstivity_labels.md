@@ -47,7 +47,11 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
 
 1. Verify you that the **Labels** tab on the top of the page is selected (underlined).
 
-1. In the middle of the page, notice how there are three labels already created.  Select **Confidential - Finance**.  A window opens that provides information about this label.  Note how this label is set to support both encryption and content marking.  Select Edit Label at the top of the page to view some of the basic configuration settings.
+    ![](../Images/module4/lab13/4-1.png)
+
+1. In the middle of the page, notice how there are either two or three labels already created.  Select any one.  A window opens that provides information about this label.  Note how this label is set to support both encryption and content marking.  Select Edit Label at the top of the page to view some of the basic configuration settings.
+
+    ![](../Images/module4/lab13/4.png)
 
 1. Configuration starts with providing a name and description for your label.  Don’t change anything.  Select **Next** at the bottom of the page.
 
