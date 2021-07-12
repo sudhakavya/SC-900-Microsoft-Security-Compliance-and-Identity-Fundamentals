@@ -86,8 +86,14 @@ In this lab, you will explore Azure Security Center and learn how Azure Secure S
 
 2.	Select the **Azure Defender on** box.  Notice how all the defender plans change status to On and notice pricing for reach item, then select **Save** from the top-left corner of the page.
 3.	Return to the Security center page, by selecting **Security Center** from the top-left corner of the page.   It may take several minutes for the Azure Defender card to reflect the change.  Refresh the page, if necessary.
-4.	To disable Azure Defender, select **Pricing & settings** from the left navigation panel of the security center page, select the **Azure Pass – Sponsorship subscription**.
+4.	To disable Azure Defender, select **Pricing & settings** from the left navigation panel of the security center page, select the **CloudLabsai subscription**.
+
+    ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/6-1.png)
+
 5.	From the Azure Defender plans page, select the **Azure Defender off** box, then select **Save** from the top-left corner of the page.
+
+    ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/6-2.png)
+
 6.	A pop-up window appears requesting confirmation of the downgrade.  Uncheck the box for Microsoft to contact you and select **Confirm**.
 7.	You can now close the browser tab to exit the Azure portal.
 
