@@ -18,8 +18,12 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 1. Open Microsoft Edge. In the address bar enter **portal.microsoft.com**.
 
 1. Sign in with your admin credentials.
-    1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
-    
+    1. In the Sign in window, Get the user credentials provided in the environment details page and paste the value in the username section and then select **Next**.
+
+     ![](../Images/module4/lab11/1-1.png)
+     
+     ![](../Images/module4/lab12/main-2.png)
+     
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
