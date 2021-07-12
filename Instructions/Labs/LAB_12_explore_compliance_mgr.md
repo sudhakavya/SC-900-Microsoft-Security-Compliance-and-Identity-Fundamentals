@@ -71,6 +71,8 @@ In this lab, you will explore the Microsoft 365 compliance center home page and 
 
 1. From the top of the Overview page, select **Improvement actions**.  These are actions that can improve the organization’s compliance score, points may take up to 24 hours to update.  Notice the available filters.
 
+     ![](../Images/module4/lab12/6-1.png)
+
 1. From the list of improvement actions, select **Enable self-service password reset**.  Each improvement action has an overview section along with the details page from which you can select implementation, testing, the related standards and regulatory requirements, and documents.
 
 1. Exit out of this improvement action by selecting the **X** on the top right corner of the screen.  Alternatively, you select **Improvement Actions** from the breadcrumb on the top left of the page.  You are now back on the improvement actions page.
