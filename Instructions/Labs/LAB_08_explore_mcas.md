@@ -43,6 +43,8 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
     1. From the top of the page, select the **IP addresses** tab (this is equivalent to selecting IP addresses from the left navigation pane).  Here you will find data including number of transactions, amount of traffic and upload amounts, by IP addresses.  Note that you can also filter by specific IP address or export the data for further analysis.
     1. From the top of the page (or the left navigation pane) select **Users**.  This is the same type of information provided when you select IP addresses, but instead it is listed for individual users.  Here again, you filter by specific user and export data for further analysis.
 
+    ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/8-6.png)
+
 1. The information provided in these tabs is based on either snap-shot reports from traffic logs you manually upload from your firewalls and proxies or from continuous reports that analyze all logs that are forwarded from your network using Cloud App Security.  To see where this is setup, select the **ellipses** on the top-right corner of the page.
    
    1. Select the first option, **Create snapshot report**. Here you would fill in the requested details and upload traffic logs to generate and upload a report.  Select **Cancel**.  The data you are seeing for your lab tenant came from a Snapshot report, you can see this information on the top right corner of the screen.
