@@ -47,6 +47,8 @@ In this lab, you will explore the features and content available from the Servic
 
 1. You have the option to download or Save to Library all or individual documents.  In this case, you want to save just the first document.  Select the **ellipses (…)**, then select **Save to Library**.  You will be prompted to subscribe to the document, select **Confirm**.
 
+   ![](../Images/module4/lab11/4.png)
+
 1. A pop-up window may appear with the option to receive email notifications when documents that are saved to your library are updated.  In this case, you don’t need to receive any notifications of updates, so leave the defaults and select **Save**.  The document is still saved to your library.
 
 1. Now verify that the document is in fact in your library. Scroll up to get to get back to the top of page.  From the top navigation, select **My Library**.  If you don’t see the option for My Library, select More, then select My Library.
