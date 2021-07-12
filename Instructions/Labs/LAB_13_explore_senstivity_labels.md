@@ -55,37 +55,69 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
 
 1. Configuration starts with providing a name and description for your label.  Don’t change anything.  Select **Next** at the bottom of the page.
 
+    ![](../Images/module4/lab13/5.png)
+
 1. Note the scope for this label.  The scope is set to Files & emails to which you can configure Encryption and content marking settings to protect labeled emails and office files.  Don’t change anything.  Select **Next** at the bottom of the page.
+
+    ![](../Images/module4/lab13/6.png)
 
 1. For the selected scope, Files & emails, you can configure to encrypt and/or mark the content.  Note how the protection settings for files and emails is set for both encryption and marking the content of files.  Review the definition of each.  Don’t change anything.  Select **Next** at the bottom of the page.
 
+    ![](../Images/module4/lab13/7.png)
+
 1. The Encryption window shows the configuration for the encryption settings.  Don’t change anything.  Review the information box under Configure encryption settings and review the configured settings. Notice how the user access to content is set to never expire.  You can also assign permissions to specific users and groups so only they can interact with content that has this label applied.  Under users and groups, the tenant is defined so all users in your tenant can view content that has this label.  The finance team is also listed and they have co-author permissions.  Don’t change any settings.  Select **Next** on the bottom of the page.
+
+    ![](../Images/module4/lab13/8.png)
 
 1. On the content markings page, take note of the information box on the top of the page.  Content markings will be applied to documents but only headers and footers will be applied to email messages. In other words, watermarks are not applied to emails.  The content marking associated with this label is a watermark.  Don’t change any settings.  Select **Next** on the bottom of the page.
 
+    ![](../Images/module4/lab13/9.png)
+
 1. You are now in the Auto-labeling for files and emails window.  Read the description of auto-labeling on the top of the page and the information box below it.  Also take note that this label is set for auto-labeling for specific conditions. Don’t change any settings.  Select **Next** on the bottom of the page.
 
-1. This next window defines protection settings for teams, groups, and sites that have this label applied. This is not enabled, select **Next** on the bottom of the page. 
+    ![](../Images/module4/lab13/10.png)
 
-1. This next window is a preview feature to automatically apply this label to Azure database columns (such as SQL, Synapse, and more) that contain the sensitive info types you choose.  This features is not enabled. Select **Cancel** at the bottom of the page to exit the label configuration wizard and return to the Information Protection page. 
+1. This next window defines protection settings for teams, groups, and sites that have this label applied. This is not enabled, select **Next** on the bottom of the page.
 
-1. From the top of the Information protection page, select **Label policies**.  It is through label policies that sensitivity labels can be published.  
+    ![](../Images/module4/lab13/11.png)
 
-1. Select **Confidential-Finance Policy**.  A window opens that provides information about the policy.  This policy serves to publish the Confidential-Finance Policy labels and protects data that contains financial data for Contoso.  Also note how this policy is published to all.  
+1. This next window is a preview feature to automatically apply this label to Azure database columns (such as SQL, Synapse, and more) that contain the sensitive info types you choose.  This features is not enabled. Select **Cancel** at the bottom of the page to exit the label configuration wizard and return to the Information Protection page.
+
+    ![](../Images/module4/lab13/12.png)
+
+1. From the top of the Information protection page, select **Label policies**.  It is through label policies that sensitivity labels can be published.
+
+    ![](../Images/module4/lab13/13.png)
+
+1. Select **Confidential-Finance Policy**.  A window opens that provides information about the policy.  This policy serves to publish the Confidential-Finance Policy labels and protects data that contains financial data for Contoso.  Also note how this policy is published to all. 
 
 1. Select **Edit** policy from the top of the window.
 
+    ![](../Images/module4/lab13/14.png)
+
 1. Read the description under “Choose sensitivity labels to publish”.  Notice the label that is listed.  Don’t change any settings.  Select **Next** on the bottom of the page.
+
+    ![](../Images/module4/lab13/15.png)
 
 1. Read the description under “Publish to users and groups”.  Notice the this label is available to all users.  Don’t change any settings.  Select **Next** on the bottom of the page.
 
+    ![](../Images/module4/lab13/16.png)
+
 1. Review the policy settings.  Don’t change any settings.  Select **Next** on the bottom of the page.
+
+    ![](../Images/module4/lab13/17.png)
 
 1. The last configuration option is to name your policy.  Don’t change any settings.  Select **Cancel** on the bottom of the page to exit the policy configuration and return to the Information protection page.
 
+    ![](../Images/module4/lab13/18.png)
+
 1. From the Information protection page, select Auto-labeling.  Note there is no auto-labeling policy configured.  Don’t change any settings.  If you are wondering why there is no policy here, given that the label configuration is set to auto-labeling for files and emails, go back to the steps where you walked through the label configuration settings and review the description and information boxes associated Auto-labeling for files and emails.  Hint:  In the auto labeling tab for the sensitivity lab, it says.  "To automatically apply this label to files that are already saved (in SharePoint and OneDrive) or emails that are already processed by Exchange, you must create an auto-labeling policy."
 
+    ![](../Images/module4/lab13/19.png)
+
 1. From the left navigation panel, select Home to return to the Microsoft 365 compliance center.
+
+    ![](../Images/module4/lab13/20.png)
 
 1. Keep this page open, you will use it in the next task.
 
