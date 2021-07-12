@@ -63,6 +63,8 @@ In this lab, you will explore the features and content available from the Servic
 
 1. From the top of the Service Trust Portal page, select **Trust Documents** and note the options. Explore the information available for each of the links under Trust Documents. Selecting Audit Reports directs you to the same location that you explored in the previous task.  Explore the information available for each of the links.
 
+   ![](../Images/module4/lab11/7-2.png)
+
 1. From the top of the page, select **Industries & Regions**.  Choose **Regional Solutions**. Notice the different Regions listed.  Select **United Kingdom**.  
 
 1. You can select from different categories.  Including GRC Assessment Reports, Compliance Guides, and more.  As with the previous task, you can filter the list of documents displayed and you can select documents to download or save documents to your library.
