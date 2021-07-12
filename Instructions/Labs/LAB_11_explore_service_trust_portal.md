@@ -25,6 +25,8 @@ In this lab, you will explore the features and content available from the Servic
 
     ![](../Images/module4/lab11/1-1.png)
 
+    ![](../Images/module4/lab11/1-2.png)
+    
 1. Scroll down on the page and notice the links to Audit reports, Documents & Resources and more.  Select **View all Audit Reports**.
 
    ![](../Images/module4/lab11/2-1.png)
