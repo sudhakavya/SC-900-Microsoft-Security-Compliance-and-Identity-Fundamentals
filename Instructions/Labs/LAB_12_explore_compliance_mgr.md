@@ -63,7 +63,7 @@ In this lab, you will explore the Microsoft 365 compliance center home page and 
 
 #### Task 2: Learn about your organization’s compliance posture through Compliance Manager.
 
-1. From the left navigation panel of the Microsoft 365 compliance center, select **Compliance Manager**.  Alternatively, you can select Compliance Manager on the title bar of the Compliance Manager card.
+1. From the left navigation panel of the Microsoft 365 compliance center, select **Compliance Manager**.  Alternatively, you can select Compliance Manager on the title bar of the Compliance Manager card. Select **Show all** , if the options are not seen in the left navigation pane. 
 
 1. From the top of the Compliance Manager page, ensure **Overview** is selected (underlined). Scroll down to see all the information available on the page.  Information on this page includes your compliance score, as a percentage and based on your points achieved and Microsoft managed points achieved.   You will see Key improvement actions, Solutions that effect your score and compliance score breakdown by categories or assessments.
 
