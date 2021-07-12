@@ -1,10 +1,3 @@
----
-lab:
-    title: 'Explore Insider Risk Management in Microsoft 365'
-    module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft 365'
----
-
-
 # Lab: Explore Insider Risk Management in Microsoft 365
 
 ## Lab scenario
@@ -37,6 +30,8 @@ In this lab, you will walk through the process of setting up an insider risk pol
     1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
+
+    ![](../Images/module4/lab14/new1.png)
 
 1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 Defender portal.  
 
