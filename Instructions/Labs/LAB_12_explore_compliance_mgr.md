@@ -83,6 +83,8 @@ In this lab, you will explore the Microsoft 365 compliance center home page and 
 
 1. From the top of the page, select **Solutions**. On this page you will see how solutions contribute to your score and their remaining opportunity for improvement.
 
+     ![](../Images/module4/lab12/6-3.png)
+
 1. From the top of the page, select **Assessments**. On this page you will see the Data Protection Baseline.  This is a default assessment Microsoft provides in Compliance Manager for the Microsoft 365 data protection baseline.  This baseline assessment has a set of controls for key regulations and standards for data protection and general data governance. Compliance Manager becomes more helpful as you build and manage your own assessments to meet your organization's particular needs.
 
 1. Select **Data Protection Baseline**.  Notice the information available on the progress tab.  You can also view status of controls for this assessment, your improvement actions, Microsoft actions.  
