@@ -39,6 +39,12 @@ In this lab, you will explore the features and content available from the Servic
 
 1. You will see a long list of available ISO reports, so you have the option to filter based on a date range as well as Document Type, Cloud Service, and Industries.  In this case, you are looking for available ISO reports for Azure DevOps.  Select Cloud Service and from the drop down, select Azure DevOps (aka VSTS).  The result is two documents.
 
+   ![](../Images/module4/lab11/3-1.png)
+   
+   ![](../Images/module4/lab11/3-2.png)
+   
+   ![](../Images/module4/lab11/3.png)
+
 1. You have the option to download or Save to Library all or individual documents.  In this case, you want to save just the first document.  Select the **ellipses (…)**, then select **Save to Library**.  You will be prompted to subscribe to the document, select **Confirm**.
 
 1. A pop-up window may appear with the option to receive email notifications when documents that are saved to your library are updated.  In this case, you don’t need to receive any notifications of updates, so leave the defaults and select **Save**.  The document is still saved to your library.
