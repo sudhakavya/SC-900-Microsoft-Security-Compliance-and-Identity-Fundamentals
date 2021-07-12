@@ -35,6 +35,10 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
 
 1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft 365 compliance center.  
 
+    ![](../Images/module4/lab13/2.png)
+    
+    ![](../Images/module4/lab13/2-1.png)
+
 1. From the left navigation panel of the Microsoft 365 compliance center, select **Show all**.
 
 1. In the left navigation panel, under solutions, select **Information protection**.
