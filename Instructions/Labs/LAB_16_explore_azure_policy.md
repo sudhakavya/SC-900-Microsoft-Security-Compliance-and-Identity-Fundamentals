@@ -51,7 +51,15 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
     ![](../Images/module4/lab16/03.png)
 
-1. From the left navigation panel, select **Definitions**.  From this page, select **Audit machines with insecure password security setting**.  This is an initiative definition, that includes many policies.  To view what a policy definition looks like, select **Audit Windows machines that do not have a maximum password age of 70 days**.  When the page opens you will see the actual policy definition in Java Script Object Notation (JSON) structure.   As you can see from the text in red, the policy definition contains elements that define the display name, description, parameters, policy rules, and more. DO NOT CHANGE ANYTHING.  
+1. From the left navigation panel, select **Definitions**.  From this page, select **Audit machines with insecure password security setting**. This is an initiative definition, that includes many policies. **Note:-** You can use the filter option to find the definition as shown in below image.
+
+    ![](../Images/module4/lab16/04.png)
+ 
+1. Inside the definition, To view what a policy definition looks like, select **Audit Windows machines that do not have a maximum password age of 70 days**. When the page opens you will see the actual policy definition in Java Script Object Notation (JSON) structure.   As you can see from the text in red, the policy definition contains elements that define the display name, description, parameters, policy rules, and more. DO NOT CHANGE ANYTHING.
+
+    ![](../Images/module4/lab16/04-2.png)
+    
+    ![](../Images/module4/lab16/04-3.png)
 
 1. Exit from the Policy definition page, by select the **X** on the top right corner of the page.
 
@@ -67,19 +75,41 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 1. From the top of the page, select **Assign policy**.
 
-1. The Assign policy wizard opens to the guide the admin in the process of assigning a policy.  Next to the Policy definition field, select the **ellipses**.  A list of the available policy definitions is provided.  
+    ![](../Images/module4/lab16/05-1.png)
+
+1. The Assign policy wizard opens to the guide the admin in the process of assigning a policy.  Next to the Policy definition field, select the **ellipses**.  A list of the available policy definitions is provided.
+
+    ![](../Images/module4/lab16/05.png)
 
 1. In the search bar enter, **Tag**.
 
-1. From the search results, select **Require a tag on resource group** (you may need to scroll down), then press **Select**.  Note: the effect of this policy is to Deny the creation of any new resource group that does not satisfy the requirement.  
+1. From the search results, select **Require a tag on resource group** (you may need to scroll down), then press **Select**.  Note: the effect of this policy is to Deny the creation of any new resource group that does not satisfy the requirement.
+
+    ![](../Images/module4/lab16/05-2.png)
 
 1. Note the default assignment name.  Keep the name as is and from the bottom of the page, select **Next**.
 
-1. In the Tag name field, enter **Environment** then select **Next**.  
+    ![](../Images/module4/lab16/05-3.png)
 
-1. In the non-compliance message, enter **An environment tag is required**, then select **Next**. Note: this message will appear as the reason for non-compliance for resource groups that were created before the policy assignment and do not have an Environment tag.  For resource groups created after the policy was created, the creating of the resource group will be denied if there is no environment tag.
+1. Under Parameters, In the Tag name field, enter **Environment** then select **Next**.
 
-1. Review the policy assignment, then select Create.  If you don’t immediately see the policy, select **Refresh**. Note: It may take up to 30 minutes for the policy to take effect.
+    ![](../Images/module4/lab16/05-3-1.png)
+    
+1. Click next under Remediation.
+
+1. In the non-compliance messages, enter **An environment tag is required**, then select **Next**. Note: this message will appear as the reason for non-compliance for resource groups that were created before the policy assignment and do not have an Environment tag.  For resource groups created after the policy was created, the creating of the resource group will be denied if there is no environment tag.
+
+    ![](../Images/module4/lab16/05-4.png)
+
+1. Review the policy assignment, then select Create.  
+
+    ![](../Images/module4/lab16/05-4-1.png)
+
+1. If you don’t immediately see the policy, select **Refresh**.
+
+    ![](../Images/module4/lab16/05-5.png)
+    
+1. **Note:** It may take up to 30 minutes for the policy to take effect.
 
 1. Exit from the Policy assignments page by selecting the **X** on the top right corner of the screen.
 
