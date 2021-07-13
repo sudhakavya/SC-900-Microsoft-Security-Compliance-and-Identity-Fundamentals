@@ -55,7 +55,7 @@ In this lab, you will access Azure Active Directory.  Additionally, you will cre
 
 #### Task 2: Creating a basic group
 
-1. On the Active Directory page, select Groups and then select New group.
+1. On the Active Directory page, select **Groups** and then select **New group**.
 
    ![](../Images/aad-new-group.png)
 
