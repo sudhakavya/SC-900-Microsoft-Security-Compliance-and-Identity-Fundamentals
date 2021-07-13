@@ -73,11 +73,19 @@ In this lab, you will explore the features and content available from the Servic
 
 1. From the top of the Service Trust Portal page, select **Trust Center** then choose **Home**. This opens a new browser tab that takes you to the Trust Center where you find more information about security, compliance, and privacy in the Microsoft Cloud.
 
+   ![](../Images/module4/lab11/11.png)
+
 1. From the top of the page, select **Privacy**, then select **Resources**.
+
+   ![](../Images/module4/lab11/11-1.png)
 
 1. Select **Additional privacy resources**.
 
+   ![](../Images/module4/lab11/9.png)
+
 1. Select **Privacy at Microsoft**.
+
+   ![](../Images/module4/lab11/10.png)
 
 1. Review the six key privacy principles.
 
