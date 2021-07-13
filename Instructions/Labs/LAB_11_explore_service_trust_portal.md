@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Explore the Service Trust Portal'
-    module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities in Microsoft'
----
-
 # Lab: Explore the Service Trust Portal
 
 ## Lab scenario
