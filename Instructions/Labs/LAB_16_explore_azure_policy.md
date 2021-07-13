@@ -41,9 +41,15 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 1. From the left navigation panel, select **Compliance**.  As with the overview page, here you can view the compliance state of the listed policies and/or initiatives.  From the Policy Compliance page, you can also assign a policy or an initiative (you’ll assign a policy in the next task).
 
-1. From the left navigation panel, select **Remediation**.  This page provides a list of policies that have non-compliant resources.  By selecting on a policy on the remediation page, you can trigger the creation of a task to remediate the policy.  
+    ![](../Images/module4/lab16/2-2.png)
 
-1. From the left navigation pane, under authoring, select **Assignments**.  From here, you can see the current policy and/or initiative assignments and you can create policy assignments or initiatives.  You will come back to this in the in next task.  
+1. From the left navigation panel, select **Remediation**.  This page provides a list of policies that have non-compliant resources.  By selecting on a policy on the remediation page, you can trigger the creation of a task to remediate the policy.
+
+    ![](../Images/module4/lab16/02.png)
+
+1. From the left navigation pane, under authoring, select **Assignments**.  From here, you can see the current policy and/or initiative assignments and you can create policy assignments or initiatives.  You will come back to this in the in next task.
+
+    ![](../Images/module4/lab16/03.png)
 
 1. From the left navigation panel, select **Definitions**.  From this page, select **Audit machines with insecure password security setting**.  This is an initiative definition, that includes many policies.  To view what a policy definition looks like, select **Audit Windows machines that do not have a maximum password age of 70 days**.  When the page opens you will see the actual policy definition in Java Script Object Notation (JSON) structure.   As you can see from the text in red, the policy definition contains elements that define the display name, description, parameters, policy rules, and more. DO NOT CHANGE ANYTHING.  
 
