@@ -1,10 +1,3 @@
----
-lab:
-    title: 'Explore the Core eDiscovery workflow'
-    module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft 365'
----
-
-
 # Lab: Explore the Core eDiscovery workflow
 
 ## Lab scenario
@@ -15,21 +8,40 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 #### Task 1:  To access Core eDiscovery or be added as a member of a Core eDiscovery case, a user must be assigned the appropriate permissions. In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
 
- Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
+1.	Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
+
+     ![](../Images/module4/lab12/main-1.png)
 
 1. Sign in with your admin credentials.
-    1. In the Sign in window enter **admin@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+    1. In the Sign in window, Get the user credentials provided in the environment details page and paste the value in the username section and then select **Next**.
+     
+        ![](../Images/module4/lab11/1-1.png)
+     
+        ![](../Images/module4/lab12/main-2.png)
     
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
+    
+        ![](../Images/module4/lab12/main-3.png)
+     
+    1. When prompted to protect the account, Please select **Skip for now**.
+
+        ![](../Images/module4/lab12/main-4.png)
+     
     1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 Defender portal.  
+    ![](../Images/module4/lab14/new1.png)
+
+1. Under Admin centers, select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 Defender portal.
+
+    ![](../Images/module4/lab14/new2.png)
 
 1. From the left navigation pane of the Microsoft 365 Defender portal, select **Permissions & roles**.  You may need to scroll down to see this option.
 
 1. From the Permissions & roles page, under **Email & collaboration roles** select **Roles**.
+
+    ![](../Images/module4/lab14/new3.png)
 
 1. In the search bar, enter **eDiscovery** then select the search icon (magnifying glass).  Select **eDiscovery Manager**.
 
