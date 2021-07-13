@@ -29,9 +29,9 @@ In this lab, you will explore some the basic functionality of Privileged Identit
 
 6. Select **Reset password** from the top of the page. Since you have not previously signed in as Diego you don’t know his password and will need to reset the password.
 
-   ![](../Images/user-diego.png)
-
 7. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
+
+   ![](../Images/user-diego.png)
 
 8. Close the password reset window by selecting the **X** at the top right corner of the page.
 
@@ -44,17 +44,27 @@ In this lab, you will explore some the basic functionality of Privileged Identit
 
 #### Task 2: In this task you, as the admin, will assign Diego an Azure AD role in Privileged Identity Management.
 
-1. Go to the open browser tab, labeled Contoso – Microsoft Azure.   If you previously closed the browser tab, open Microsoft Edge and in the address bar enter portal.azure.com and sign in with your admin credentials, then select Azure Active Directory.  
+1. Go to the Azure Active Directory page.  
 
 2. From the left navigation panel, select **Identity Governance**.
 
-3. From the main window, ensure **Getting started** is underlined then select **Manage role assignments**, on the right center portion of the screen.  Alternatively, from the left navigation panel, under Privileged Identity Management, select **Azure AD roles**.
+   ![](../Images/identity-governance.png)
+
+3. From the main window, ensure **Getting started** is underlined then select from the left navigation panel, under Privileged Identity Management, select **Azure AD roles**.
+
+   ![](../Images/aad-role.png)
 
 4. You are now in the Privileged Identity Management Quick start window.  Select **Manage Access**.
 
-5. You are now in the Contoso Roles page.  In the search bar, on the top of the page, enter **user**.  From the search results, select **User Administrator**.
+   ![](../Images/manage-role.png)
+
+5. You are now in Roles page.  In the search bar, on the top of the page, enter **user**.  From the search results, select **User Administrator**.
+
+   ![](../Images/user-admin.png)
 
 6. From the top of the page, select **+ Assignments**.
+
+   ![](../Images/assignments.png)
 
 7. In the Add assignments page, ensure that **Membership** is underlined.  Here you will configure the membership settings for the user administrator role in PIM.
 
@@ -64,7 +74,9 @@ In this lab, you will explore some the basic functionality of Privileged Identit
 
 10. In the search bar, enter **Diego**.  From the search results, select **Diego Siciliani** then press **Select** on the bottom of the page.  
 
-11. Under Select members you will see 1 Member(s) selected and the name and email of the selected member(s), Deigo Siciliani. From the bottom of the Add assignments page, select **Next**.  
+11. Under Select members you will see 1 Member(s) selected and the name and email of the selected member(s), Deigo Siciliani. From the bottom of the Add assignments page, select **Next**.
+
+   ![](../Images/membership.png)
 
 12. You are now in the Setting page.  Leave the Assignment type to the default setting, Eligible.
 
@@ -74,11 +86,15 @@ In this lab, you will explore some the basic functionality of Privileged Identit
 
 15. In the Assignment end fields, change the date to today’s date (note the default setting is one year from the today, so you need to change the year). For the time, set the time to two hours from the current time.  After you have set the time field for the time when the Assignment ends, press the tab key on your keyboard and select **Assign** on the bottom of the page.  
 
+   ![](../Images/permanently-eligible.png)
+
 16. This takes you back the Assignments window.  After a few second you should see Diego Siciliani listed in the User Administrator table, along with the details of the assignment.  If after a few seconds you still don't see the update, select **Refresh** from the top of the page.
 
 17. From the top of the page, select **Settings**.
 
 18. In the Role setting details for User Administrator, notice the different options.  Note that the setting to “Require justification on activation” is set to yes, and “On activation, require Azure MFA” is also set to yes.  You will see both of these in the next task when Diego activates the role.  Also note that “Require approval to activate” is set to No.  Leave all the settings to their default values.  Close the page by selecting the **X** on the top right corner of the screen.
+
+   ![](../Images/settings.png)
 
 19. Sign out by selecting on the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
 
@@ -88,7 +104,7 @@ In this lab, you will explore some the basic functionality of Privileged Identit
 1. Open Microsoft Edge.  In the address bar of the browser, enter **portal.azure.com**.
 
 1. Sign in as Diego Siciliani.
-    1. In the Sign in window enter **DiegoS@WWLxZZZZZZ.onmicrosoft.com** (where ZZZZZZ is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+    1. In the Sign in window enter **DiegoS@WWLxxxx.onmicrosoft.com** (where xxxxx is your unique tenant ID provided by your lab hosting provider) then select **Next**.
     1. Enter the temporary password that you noted from the prevjous task and select **Sign in**.  Select **Sign in**.
     1. Since the password you entered was only a temporary password you need to update now. Enter the current password.  For the new password and confirm password fields enter **SC900-Lab**.
     1. When prompted to stay signed- in, select **Yes**.
@@ -96,10 +112,25 @@ In this lab, you will explore some the basic functionality of Privileged Identit
 1. You should be successfully logged in to the Azure Portal.
 1. From the main Welcome page, under Azure services, select **Azure Active Directory**.
 1. From the left navigation panel, select **Identity Governance**.
+
+   ![](../Images/identity-governance.png)
+
 1. From the left navigation panel, under Privileged Identity Management, select **Azure AD roles**.
-1. From the left navigation panel, select **My roles**.  You are now seeing information for your Azure AD roles.  You will see that you, Diego, are assigned the User administrator role.  
+
+   ![](../Images/aad-role.png)
+
+1. From the left navigation panel, select **My roles**.  You are now seeing information for your Azure AD roles.  You will see that you, Diego, are assigned the User administrator role.
+
+   ![](../Images/my-roles.png)
+
 1. In the last column of the table, labeled action, select **Activate**.
-1. You will see a warning icon indicating Additional verification required.  Select **Click to continue**.  Recall that the PIM settings for the User administrator role requires multi-factor authentication.  Additionally, since Diego’s contact information for use with MFA (authentication methods) was not previously configured, he must register his information, to be able to use MFA.  Although he will have to do MFA anytime he signs in as a user admin, within the assignment period, the MFA registration process is required only once.
+
+   ![](../Images/activate.png)
+
+1. You will see a warning icon indicating Additional verification required.  Select **Click to continue**.  Recall that the PIM settings for the User administrator role requires multi-factor authentication.  Additionally, since Diego’s contact information for use with MFA (authentication methods) was not previously configured, he must register his information, to be able to use MFA.  Although he will have to do MFA anytime he signs in as a user admin, within the assignment period, the MFA registration process is required only once. 
+
+   ![](../Images/click-to-continue.png)
+
 1. You are notified that more information is required, select **Next**.
 1. Enter your password, **SC900-Lab**.
 1. From the bottom left of the Microsoft Authenticator window, select **I want to setup a different method**.
@@ -118,7 +149,7 @@ In this lab, you will explore some the basic functionality of Privileged Identit
 1. From the users list, select **Bianca Pisani**.
 1. From the left navigation panel, select **Licenses**.
 1. Notice how Bianca has no licenses assigned.  From the top of the page, select **+ Assignments**. 
-1. From the select licenses list, select **Office 365 E3** and **Windows 10 Enterprise E3**.
+1. From the select licenses list, select **Office 365 E3**.
 1. From the bottom of the page, select **Save**.  You will see a brief notification on the top right of page indicating licenses were successfully assigned.
 1. Close out of the updated license assignments page, by selecting the **X** on the top right corner of the page.
 1. Sign out by selecting on the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
