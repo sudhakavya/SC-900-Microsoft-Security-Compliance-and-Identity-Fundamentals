@@ -82,7 +82,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 #### Task 2: In this task you, as the admin, will learn how to configure Password reset for users, including configuration of the types of authentication methods to use.
 
-1. Go to the **Azure Active Directory** home page
+1. Go to the Azure Active Directory home page
 
 2. From the left navigation pane, select **Password reset**.  
 
@@ -102,7 +102,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 10. From the left navigation panel of Password reset, select **Notifications**.  
 
-11. Ensure the setting to Notify users on password resets is set to **Yes**.  Leave the setting for Notify all admins when other admins reset their password to **No**.
+11. Ensure the setting to Notify users on password resets is set to **Yes**.  Leave the setting for Notify all admins when other admins reset their password to No.
 
 12. Note how the Password reset navigation pane also includes options to view audit logs and Usage & insights.
 
@@ -124,18 +124,20 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 4. Since this is your first sign in as Adele Vance, you will be prompted to reset your password.  Enter your old password.  For your new password enter **SC900-Lab**. Enter **SC900-Lab** in the confirm password field.  Select **Sign in**.  Note: we are using this password only for the convenience of the lab. As a best practice you would typically enter a more secure password.
 
-5. A pop-up displays indicating that **More information is required**. This is because as a member of the SSPRSecurityUsers group, the configuration requires its members to register when they sign in. Select the **Next** button.
+5. A pop-up displays indicating that **Help us protect your account**. Click on **Skip for now (14 days until this is required)** and then you will get another pop-up saying **More information is required**.  This is because as a member of the SSPRSecurityUsers group, the configuration requires its members to register when they sign in.  Select the **Next** button. Again you will get a pop-up displays indicating that **Help us protect your account**. Click on **Skip for now (14 days until this is required)**. Then When prompted to stay signed- in, select **Yes**
 
     >Note:  An alternative to having users do the registration, themselves, is for admins to directly configure the authentication methods when they add a user. This requires admins to know and set the ​phone numbers and email addresses that users use to perform self-service password reset, and reset a user’s password.
 
+   ![](../Images/default-secure.png)
+
    ![](../Images/more-info.png)
 
-6. The **Keep your account secure** page opens. From the bottom left of the Microsoft Authenticator window, select **I want to setup a different method**, a pop-up window shows up, asking Which method would you like to use?  From the drop down, select your preferred method, **Phone**, then select the **Confirm** button if you don’t have a mobile device with you that is capable of receiving text messages, skip to the 8th step. 
+   ![](../Images/default-secure.png)
 
-   ![](../Images/keep-secure.png)
+   ![](../Images/stay-sign-in.png)
 
-7. You are prompted to enter a phone number. Ensure the option **Text me a code** is enabled.   Enter the phone number where you can receive a text code and select the **Next** button. A new window opens indicating a code was just sent to the phone you entered.  Enter the code your received and select **Next**. A window opens indicating Success and showing your Default sign-in method.  Select **Done**.
-   
+6. The **Keep your account secure** page opens.  The window that appears is for the Phone authentication method, if you don’t have a mobile device with you that is capable of receiving text messages, skip to the next step.  You are prompted to enter a phone number. Ensure the option **Text me a code** is enabled.   Enter the phone number where you can receive a text code and select the **Next** button. A new window opens indicating a code was just sent to the phone you entered.  Enter the code your received and select **Next**. A window opens indicating Success and showing your Default sign-in method.  Select **Done**. 
+
    ![](../Images/keep-acc-secure.png)
 
    ![](../Images/enter-code.png)
@@ -144,11 +146,11 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
    ![](../Images/default-sign-in.png)
 
-8. Skip this step if you were able to configure SSPR with your mobile phone number.  Alternatively, you can setup a different method as shown on the bottom left of the window.  If you choose to setup a different method, select **I want to set up a different method**, a pop-up window shows up, asking Which method would you like to use?  From the drop down, select your preferred method, **Email**, then select the **Confirm** button.  Enter the email you would like to use then select **Next**.  A new window opens indicating a code was just sent to the email you entered.  Access the email you entered to obtain the code.  Enter the code your received and select **Next**. A window opens indicating Success and showing your Default sign-in method.  Select **Done**.
+7. Skip this step if you were able to configure SSPR with your mobile phone number.  Alternatively, you can setup a different method as shown on the bottom left of the window.  If you choose to setup a different method, select **I want to set up a different method**, a pop-up window shows up, asking Which method would you like to use?  From the drop down, select your preferred method, **Email**, then select the **Confirm** button.  Enter the email you would like to use then select **Next**.  A new window opens indicating a code was just sent to the email you entered.  Access the email you entered to obtain the code.  Enter the code your received and select **Next**. A window opens indicating Success and showing your Default sign-in method.  Select **Done**.
 
-9. You can now complete your sign in. You should be on the Office 365 landing page. If you see that your sign in time has expired, just reenter the password, SC900-Lab.
+8. You can now complete your sign in. You should be on the Office 365 landing page. If you see that your sign in time has expired, just reenter the password, SC900-Lab.
 
-10. Sign-out of the Office 365 page and close your browser window.
+9. Sign-out of the Office 365 page and close your browser window.
 
 #### Task 4 (Optional): In this task you, as user Adele Vance, will go through the process of resetting your password.
 
