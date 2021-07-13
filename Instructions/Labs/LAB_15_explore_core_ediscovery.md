@@ -45,17 +45,35 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. In the search bar, enter **eDiscovery** then select the search icon (magnifying glass).  Select **eDiscovery Manager**.
 
+    ![](../Images/module4/lab15/1.png)
+    
+    ![](../Images/module4/lab15/1-1.png)
+
 1. In the window that opens, notice how there are two sub-groups, eDiscovery Manager and eDiscovery Administrator.  Read the description of each.  For this lab lab, we will add members to the eDiscovery Administrator sub-group. Select **Edit**, next to eDiscovery Administrator.  As a general best practice, users should be assigned the least privilege required for their role.
+
+    ![](../Images/module4/lab15/2.png)
 
 1. To add members to this role group, make sure you are in the  **Choose eDiscovery Administrator** tab then select **Choose eDiscovery Administrator**.
 
+    ![](../Images/module4/lab15/3.png)
+
 1. Select **+ Add** from the top of the page.
+
+    ![](../Images/module4/lab15/4.png)
 
 1. From the list of names, select **MOD Administrator**, **Megan Bowen** then select **Add** at the bottom of the page, then select **Done** at the bottom of the page.
 
+    ![](../Images/module4/lab15/5.png)
+    
+    ![](../Images/module4/lab15/5-1.png)
+
 1. Verify the added members is correct then select **Save**.
 
+    ![](../Images/module4/lab15/6.png)
+
 1. From the bottom of the eDiscovery window, select **Close**.
+
+    ![](../Images/module4/lab15/7.png)
 
 1. Keep this browser tab open, as you will come back to it in a subsequent task.
 
@@ -65,15 +83,23 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. From the left navigation panel, under Admin Centers, select **Compliance**.
 
+    ![](../Images/module4/lab15/8.png)
+
 1. You are now in the Microsoft 365 compliance center. From the left navigation panel, select **Show all**.
 
 1. From the left navigation panel, under Solutions, select **eDiscovery** then select **Core**.
 
 1. From the top of the Core eDiscovery page, select **+ Create a case**.
 
+    ![](../Images/module4/lab15/9.png)
+
 1. In the New case window, enter a Case name, **SC900 Test Case** then select the **Save** at the bottom of the page.
 
-1. The case should now appear on the list. 
+    ![](../Images/module4/lab15/10.png)
+
+1. The case should now appear on the list.
+
+    ![](../Images/module4/lab15/11.png)
 
 1. As the creator of the case and because you have eDiscovery Administrator privileges, you can begin to work with it.  
 
