@@ -117,11 +117,15 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 #### Task 3:  In this task you will see the impact of the Azure policy assignment, by creating a resource group in Azure that does not have a tag, then you will see update the resource group to include a tag.  Note: It may take up to 30 minutes for the policy created in the previous task to take effect, but it usually happens faster.
 
-1. Open the browser tab, Home – Microsoft Azure.
+1. Navigate to Home – Microsoft Azure.
 
-1. Form the top of the page, underneath where it says Azure Services, select **Resource groups**.
+1. Select **Resource groups**.
+
+    ![](../Images/module4/lab16/06.png)
 
 1. From the top left corner of the page, select **+ Create**.
+
+    ![](../Images/module4/lab16/07.png)
 
 1. From the Basics tab of the Create a resource group, leave the Subscription field as is, Azure Pass -  Sponsorship.
 
@@ -129,17 +133,29 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 1. Leave the Region setting to the default, then select **Next: Tags**.
 
+    ![](../Images/module4/lab16/08.png)
+
 1. Leave the tag Name and Value field empty.  DO NOT POPULATE, then select **Review + create**.
 
+    ![](../Images/module4/lab16/09.png)
+
 1. You will see a validate passed (the tag name and value are not required fields in the wizard), then select **Create**.
+
+    ![](../Images/module4/lab16/10.png)
 
 1. You will see a failure message on the top of the screen, “Failed to create the resource group. View error details”.  Select **View error details**. The condition that is part of the Azure policy was not satisfied so the resource group creating was blocked, for non-compliance. Note: If you don’t see the failure message and the resource group was created, it is because the policy has not yet taken effect.  Go the Policy page for the policy you created in the previous task and once the policy takes effect you will see that the resource is not compliant.  The details page will include the non-compliance message.
 
 1. The error summary shows the error type, “Resource ‘SC900-Labs’ was disallowed by policy.  Close this window by selecting the **X** on the top left corner of the screen.
 
+    ![](../Images/module4/lab16/11.png)
+
 1. From the Create a resource group window, select **<Previous**.
 
+    ![](../Images/module4/lab16/11-1.png)
+
 1. You are back in the Tags page for Create a resource group.  In the Name field enter Environment and in the Value field, enter **SC900-Labs**, then select **Next: Review + Create >**.
+
+    ![](../Images/module4/lab16/12.png)
 
 1. Verify the tag and select **Create**.
 
