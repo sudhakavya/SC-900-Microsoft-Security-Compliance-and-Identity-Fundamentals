@@ -40,7 +40,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
     4. Group description: **Add an optional description to your group**.
 
-1. On the Active Directory page, select Password reset.
+1. On the **Azure Active Directory** home page, select **Password reset**.
 
 1. From the Properties page, under the option Self service password reset enabled, select **Select group**
 
