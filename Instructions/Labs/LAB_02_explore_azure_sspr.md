@@ -32,7 +32,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
    ![](../Images/aad-new-group2.png)
 
-1. Populate the **New Group** fields as follows and Select Create
+1. Populate the **New Group** fields as follows and Select **Create**
 
     1. Group type: **Security**.
 
