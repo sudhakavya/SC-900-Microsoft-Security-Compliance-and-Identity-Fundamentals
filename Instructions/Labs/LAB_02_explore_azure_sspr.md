@@ -48,7 +48,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
    ![](../Images/aad-password-reset.png)
 
-5. Now go to the groups. In the Search groups field, enter **SSPR**, then from the search results select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
+5. Now go to the **Groups**. In the Search groups field, enter **SSPR**, then from the search results select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
 
 6. From the left navigation pane, select **Members**.
 
@@ -60,7 +60,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
    ![](../Images/sspr-add-member.png)
 
-10. Return to the Azure Active Directory page.
+10. Return to the **Azure Active Directory** page.
 
 11. From the left navigation panel select **Users**.
 
