@@ -37,6 +37,8 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 1. From the left navigation panel, select **Getting started**.  Here you can view the different options including the option to browse built-in policies and assign policies at scale, you can create custom policy definitions for your environment, recommend policy assignments and much more.
 
+    ![](../Images/module4/lab16/2-1-1.png)
+
 1. From the left navigation panel, select **Compliance**.  As with the overview page, here you can view the compliance state of the listed policies and/or initiatives.  From the Policy Compliance page, you can also assign a policy or an initiative (you’ll assign a policy in the next task).
 
 1. From the left navigation panel, select **Remediation**.  This page provides a list of policies that have non-compliant resources.  By selecting on a policy on the remediation page, you can trigger the creation of a task to remediate the policy.  
