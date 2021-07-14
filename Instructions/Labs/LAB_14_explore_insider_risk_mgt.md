@@ -61,7 +61,7 @@ In this lab, you will walk through the process of setting up an insider risk pol
 
     ![](../Images/module4/lab14/new8.png)
 
-1. From the list of names, select **MOD Administrator**, **Megan Bowen** then select **Add** at the bottom of the page, then select **Done** at the bottom of the page.
+1. From the list of names, select **MOD Administrator**, **Megan Bowen** and your account ie. name with **ODL_User uniqueID** then select **Add** at the bottom of the page, then select **Done** at the bottom of the page.
 
     ![](../Images/module4/lab14/new9.png)
     
