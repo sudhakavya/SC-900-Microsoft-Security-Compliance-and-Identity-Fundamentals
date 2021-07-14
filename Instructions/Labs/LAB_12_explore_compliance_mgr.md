@@ -91,13 +91,27 @@ In this lab, you will explore the Microsoft 365 compliance center home page and 
 
 1. From the top of the page, select **Assessments**. On this page you will see the Data Protection Baseline.  This is a default assessment Microsoft provides in Compliance Manager for the Microsoft 365 data protection baseline.  This baseline assessment has a set of controls for key regulations and standards for data protection and general data governance. Compliance Manager becomes more helpful as you build and manage your own assessments to meet your organization's particular needs.
 
-1. Select **Data Protection Baseline**.  Notice the information available on the progress tab.  You can also view status of controls for this assessment, your improvement actions, Microsoft actions.  
+     ![](../Images/module4/lab12/new1.png)
+
+1. Select **Data Protection Baseline**.  Notice the information available on the progress tab.  You can also view status of controls for this assessment, your improvement actions, Microsoft actions.
+
+     ![](../Images/module4/lab12/new2.png)
 
 1. From the top left of the page, above where it says Assessments (the breadcrumb), select **Assessment** to return to the assessments page.  
 
+     ![](../Images/module4/lab12/new3.png)
+
 1. From the top of the page, select **Assessment templates**.  This page lists the available templates. You can crate assessments for your organization by using an existing template or you can create a new template.
+
+     ![](../Images/module4/lab12/new4.png)
  
-1. From the included templates list, select **ISO/IEC 27001:2013**. From the top right of the page, select **+ Create assessment**.  Notice on the left side of the screen that there are only two steps to create an assessment from the template.  Select Cancel from the bottom of the page.
+1. From the included templates list, select **ISO/IEC 27001:2013** (**Note:-** Search the template in the filter by pasting the name and then press enter in keyboard) From the top right of the page, select **+ Create assessment**.  Notice on the left side of the screen that there are only two steps to create an assessment from the template.  Select Cancel from the bottom of the page.
+
+     ![](../Images/module4/lab12/new5.png)
+     
+     ![](../Images/module4/lab12/new6.png)
+     
+     ![](../Images/module4/lab12/new7.png)
 
 1. Close the open browser tabs.
 
