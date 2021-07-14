@@ -10,7 +10,7 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
 
 1.	Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
 
-     ![](../Images/module4/lab12/main-1.png)
+      ![](../Images/module4/lab12/main-1.png)
 
 1. Sign in with your admin credentials.
     1. In the Sign in window, Get the user credentials provided in the environment details page and paste the value in the username section and then select **Next**.
