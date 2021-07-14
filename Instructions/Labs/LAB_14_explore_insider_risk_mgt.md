@@ -8,7 +8,7 @@ In this lab, you will walk through the process of setting up an insider risk pol
 
 #### Task 1: In this task you, as the global administrator, will enable permissions for Insider Risk Management.  Specifically, you will add users to the Insider Risk Management role group to ensure that designated users can access and manage insider risk management features.  It may take up to 30 minutes for the role group permissions to apply to users across the organization. 
 
-1.	Open Microsoft Edge. In the address bar enter **admin.microsoft.com**. please open this in a new private window.
+1.	Open Microsoft Edge. In the address bar enter **admin.microsoft.com**. Please open this in a new private window.
 
       ![](../Images/module4/lab12/main-1.png)
 
