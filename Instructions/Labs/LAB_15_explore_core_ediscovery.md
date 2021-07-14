@@ -75,7 +75,7 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
     ![](../Images/module4/lab15/7.png)
 
-1. Keep this browser tab open, as you will come back to it in a subsequent task.
+1. Close all the tabs except the **admin.microsoft.com** and then sign out from the admin center page and sign-in back again to reflect the permissions added for users faster.
 
 #### Task 2:  In this task you, as an eDiscovery Administrator (MOD admin is an eDiscovery administrator), will create a case to start using Core eDiscovery.
 
