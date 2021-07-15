@@ -26,7 +26,23 @@ In this lab, you will explore Azure Security Center and learn how Azure Secure S
 
 1. On the top left corner of the screen, next to where it says Microsoft Azure, select the Show portal menu icon (the three horizontal lines also referred to as hamburger icon) then select **All Services**.  
 1. In the filter services box, enter **Security Center**, then from the results list, select **Security Center**.
-1. Notice the information available on the Security center overview page.  
+1. Click on the **Getting started (1)** from the left pane. Click on the **Upgrade (2)** tab, select your **subscription (3)** and click **Upgrade (4)**.
+
+   > **Note:** If you are not able to see subscription then it means your subscription is already upgraded, in this case you can skip step 2, 3 and continue from step 4.
+
+   ![alt text](https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Security-Immersion/main/Labs/Images/get-started-1.png)
+
+   ![alt text](https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Security-Immersion/main/Labs/Images/get-started.png)
+   
+1. Click on **Install agents**. 
+
+   ![alt text](https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Security-Immersion/main/Labs/Images/installagents.png)
+   
+   > **Note:** If the button is greyed out, then it's already set to **On** and agents are already installed in this case you can move on to the next step.
+
+   ![alt text](https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Security-Immersion/main/Labs/Images/installagents1.png)
+   
+1. Return to Azure security Center blade. Notice the information available on the Security center overview page.  
 
     ![alt text](https://raw.githubusercontent.com/Azure/Azure-Security-Center/main/Labs/Images/asc-dashboard-overview.gif)
 
@@ -54,12 +70,14 @@ In this lab, you will explore Azure Security Center and learn how Azure Secure S
 
     ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/17.png)
 
-1. Select **IM. Identity Management** then select **IM.4 Use strong authentication controls for all Azure Active Directory based access**.  The list shows customer responsibility actions that can be taken to improve compliance posture.
 1. Select the **X** on the top-right corner of the screen to close the page and return to the Security Center Overview page. 
 1. Keep the Security center overview page open, you will use in the next task.
 
 
-#### Task 2: In this task you will navigate to Azure Secure score and explore recommendations that can improve your secure score. 
+#### Task 2: In this task you will navigate to Azure Secure score and explore recommendations that can improve your secure score.
+
+> ❗ Important: <br>
+> Azure Security Center takes time to populate information such as secure score, compliance, recommendations etc. after enabling the services and enrolling the servers to security center. Sometimes, it can take up to 3 hrs. or even more than that for all the tiles on the overview page to update. if it takes more time, attendees can skip the steps of task 2 & proceed with the Task 3 and can come back later and check on this. We are looking at various approaches to optimize this experience for future workshops.
 
 1. From the Security center overview page, select the **Secure Score** card.
 
@@ -74,7 +92,7 @@ In this lab, you will explore Azure Security Center and learn how Azure Secure S
 4. Select the **Azure subscription**.
 5. From the top of the Access control (IAM) page, select **+ Add** then from the drop down select **Add role assignment**.
 6. In the Role field, enter **Owner**, then select **Owner** from the list below.
-7. From the user list, select **Alex Wilber**, then select **Save** on the bottom of the page.
+7. From the user list, select **odl_user_XXXXXX@cloudlabsai.com**,(where XXXXXX is the unique ID which provided on the environment page) then select **Save** on the bottom of the page.
 8. It can take up to 24 hours for the status to be updated, after which your secure score will also be updated as all the items in the Manage access and permissions group are satisfied.
 9. From the top-left corner of the page, above where is says Azure Pass, select **Security Center** then select **Overview** to return the security center overview page.
 10. Keep this page open for the subsequent task.
