@@ -27,9 +27,11 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
 
     ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/8-1.png)
 
-1. Under **Alerts** Select **Managed advanced alerts**. On the **Office 365 Cloud App Security** card, select **Open**.
+1. From the bottom of the left navigation panel of the Microsoft 365 Defender page, select **More resources**.
 
-    ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/8-2.png)
+1. On the **Microsoft Cloud App Security** card, select **Open**.  A new browser page opens to the Cloud App Security Dashboard.  Note the information cards that are available.  It is possible you may not see any information on the cards, as this is a preconfigured lab tenant environment that has not been actively used.
+
+    ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/8-7.png)
 
 1. From the left navigation panel, select **Discover** then from the drop-down select **Cloud Discovery dashboard**.  The dashboard includes and overview of discovered apps, app categories, risk levels, and more.  
 
