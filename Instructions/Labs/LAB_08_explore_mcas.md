@@ -47,13 +47,15 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
 
     ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/8-6.png)
 
-1. The information provided in these tabs is based on either snap-shot reports from traffic logs you manually upload from your firewalls and proxies or from continuous reports that analyze all logs that are forwarded from your network using Cloud App Security.  To see where this is setup, select the **ellipses** on the top-right corner of the page.
+1. The information provided in these tabs is based on either snap-shot reports from traffic logs you manually upload from your firewalls and proxies or from continuous reports that analyze all logs that are forwarded from your network using Cloud App Security.
    
    1. Select the first option, **Create snapshot report**. Here you would fill in the requested details and upload traffic logs to generate and upload a report.  Select **Cancel**.  The data you are seeing for your lab tenant came from a Snapshot report, you can see this information on the top right corner of the screen.
     
-        ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/8-5.png)
+    ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/8-5.png)
     
-    1. To see the option for continuous reports, select the **ellipses** on the top-right corner of the page and from the drop-down select **Configure automatic upload**.  There are no data sources connected, but this is where you would add a data source. Select the **Select Appliance** drop-down arrow to see the types of appliances that you can connect as a data source.  Select **Cancel** to exit.
+    1. To see the option for continuous reports, select the **Setting** on the top-right corner of the page and from the drop-down select **Log Collectors**.  There are no data sources connected, but this is where you would add a data source. Select the **Add data source** drop-down arrow to see the types of appliances that you can connect as a data source.  Select **Cancel** to exit.
+
+    ![alt txt}(https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/8-8.png)
 
 1. Another point to call out is that you can connect to apps directly by setting up app connectors that will provide you with greater visibility and control over your cloud apps. From the top left corner of the screen, select the **Settings cog icon** and from the drop-down list, select **App connectors**.  
     
