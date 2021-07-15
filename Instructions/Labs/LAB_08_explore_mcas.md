@@ -55,7 +55,7 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
     
     1. To see the option for continuous reports, select the **Setting** on the top-right corner of the page and from the drop-down select **Log Collectors**.  There are no data sources connected, but this is where you would add a data source. Select the **Add data source** drop-down arrow to see the types of appliances that you can connect as a data source.  Select **Cancel** to exit.
 
-    ![alt txt}(https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/8-8.png)
+    ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/8-8.png)
 
 1. Another point to call out is that you can connect to apps directly by setting up app connectors that will provide you with greater visibility and control over your cloud apps. From the top left corner of the screen, select the **Settings cog icon** and from the drop-down list, select **App connectors**.  
     
