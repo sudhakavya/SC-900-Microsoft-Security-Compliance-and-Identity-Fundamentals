@@ -146,7 +146,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
    ![](../Images/enter-code.png)
 
-   ![](../Images/sms-verified.png)
+   ![](../Images/sms-verified-upd.png)
 
 8. Skip this step if you were able to configure SSPR with your mobile phone number.  Alternatively, you can setup a different method as shown on the bottom left of the window.  If you choose to setup a different method, select **I want to set up a different method**, a pop-up window shows up, asking Which method would you like to use?  From the drop down, select your preferred method, **Email**, then select the **Confirm** button.  Enter the email you would like to use then select **Next**.  A new window opens indicating a code was just sent to the email you entered.  Access the email you entered to obtain the code.  Enter the code your received and select **Next**. A window opens indicating Success and showing your Default sign-in method.  Select **Done**.
 
