@@ -136,7 +136,11 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
    ![](../Images/stay-sign-in.png)
 
-6. The **Keep your account secure** page opens.  The window that appears is for the Phone authentication method, if you don’t have a mobile device with you that is capable of receiving text messages, skip to the next step.  You are prompted to enter a phone number. Ensure the option **Text me a code** is enabled.   Enter the phone number where you can receive a text code and select the **Next** button. A new window opens indicating a code was just sent to the phone you entered.  Enter the code your received and select **Next**. A window opens indicating Success and showing your Default sign-in method.  Select **Done**. 
+6. In the Keep your account secure window, you have the option to select the method to use for MFA.  Microsoft Authenticator is one option. For expediency in this lab exercise, you will choose a different method.  Select **I want to setup a different method**.  From the Chose a different method pop-up window, select the **drop-down arrow** and select **Phone** then select **Confirm**.
+
+   ![](../Images/keep-secure.png)
+
+7. The **Keep your account secure** page opens.  The window that appears is for the Phone authentication method, if you don’t have a mobile device with you that is capable of receiving text messages, skip to the next step.  You are prompted to enter a phone number. Ensure the option **Text me a code** is enabled.   Enter the phone number where you can receive a text code and select the **Next** button. A new window opens indicating a code was just sent to the phone you entered.  Enter the code your received and select **Next**. A window opens indicating Success and showing your Default sign-in method.  Select **Done**. 
 
    ![](../Images/keep-acc-secure.png)
 
@@ -144,13 +148,11 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
    ![](../Images/sms-verified.png)
 
-   ![](../Images/default-sign-in.png)
+8. Skip this step if you were able to configure SSPR with your mobile phone number.  Alternatively, you can setup a different method as shown on the bottom left of the window.  If you choose to setup a different method, select **I want to set up a different method**, a pop-up window shows up, asking Which method would you like to use?  From the drop down, select your preferred method, **Email**, then select the **Confirm** button.  Enter the email you would like to use then select **Next**.  A new window opens indicating a code was just sent to the email you entered.  Access the email you entered to obtain the code.  Enter the code your received and select **Next**. A window opens indicating Success and showing your Default sign-in method.  Select **Done**.
 
-7. Skip this step if you were able to configure SSPR with your mobile phone number.  Alternatively, you can setup a different method as shown on the bottom left of the window.  If you choose to setup a different method, select **I want to set up a different method**, a pop-up window shows up, asking Which method would you like to use?  From the drop down, select your preferred method, **Email**, then select the **Confirm** button.  Enter the email you would like to use then select **Next**.  A new window opens indicating a code was just sent to the email you entered.  Access the email you entered to obtain the code.  Enter the code your received and select **Next**. A window opens indicating Success and showing your Default sign-in method.  Select **Done**.
+9. You can now complete your sign in. You should be on the Office 365 landing page. If you see that your sign in time has expired, just reenter the password, SC900-Lab.
 
-8. You can now complete your sign in. You should be on the Office 365 landing page. If you see that your sign in time has expired, just reenter the password, SC900-Lab.
-
-9. Sign-out of the Office 365 page and close your browser window.
+10. Sign-out of the Office 365 page and close your browser window.
 
 #### Task 4 (Optional): In this task you, as user Adele Vance, will go through the process of resetting your password.
 
