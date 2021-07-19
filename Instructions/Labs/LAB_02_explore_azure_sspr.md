@@ -102,7 +102,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 10. From the left navigation panel of Password reset, select **Notifications**.  
 
-11. Ensure the setting to Notify users on password resets is set to **Yes**.  Leave the setting for Notify all admins when other admins reset their password to No.
+11. Ensure the setting to Notify users on password resets is set to **Yes**.  Leave the setting for Notify all admins when other admins reset their password to **No**.
 
 12. Note how the Password reset navigation pane also includes options to view audit logs and Usage & insights.
 
