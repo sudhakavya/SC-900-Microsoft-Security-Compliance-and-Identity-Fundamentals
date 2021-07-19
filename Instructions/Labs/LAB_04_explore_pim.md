@@ -108,8 +108,36 @@ In this lab, you will explore some the basic functionality of Privileged Identit
     1. Enter the temporary password that you noted from the prevjous task and select **Sign in**.  Select **Sign in**.
     1. Since the password you entered was only a temporary password you need to update now. Enter the current password.  For the new password and confirm password fields enter **SC900-Lab**.
     1. When prompted to stay signed- in, select **Yes**.
+   >Note: Do not close the browser
 
-1. You should be successfully logged in to the Azure Portal.
+1. Now Open the browser in Incognito mode, In the address bar enter **portal.azure.com**.
+
+1. Sign in with the credentials provided in the **Enviornment Details** Tab. 
+    1. In the Sign in window enter **odl_user_xxxxx@xxxxx.onmicrosoft.com** (where xxxxx is your unique tenant ID provided by your lab
+    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
+    1. When prompted to stay signed- in, select **Yes**.
+
+1. Go to Azure Active Directory page.  As an Azure AD user administrator you can create users and groups, manage licenses, and more.  From the left navigation panel, select **Users**.
+
+1. Select **Per-user MFA**.
+
+   ![](../Images/per-user-mfa.png)
+
+1. A new page opens that displays the user state
+
+   ![](../Images/userstate1.png)
+
+1. Check the box next to the name(s) of the user(s) to change the state for.
+
+1. On the right-hand side, under quick steps, choose Enable or Disable. In the following example, the user Diego Siciliani has a check next to their name and is being enabled for use:
+
+   ![](../Images/user1.png)
+
+1. Confirm your selection in the pop-up window that open
+
+   ![](../Images/pop-up.png)
+
+1. Now go back to the Azure Portal of user **Diego Siciliani**.
 1. From the main Welcome page, under Azure services, select **Azure Active Directory**.
 1. From the left navigation panel, select **Identity Governance**.
 
@@ -133,11 +161,25 @@ In this lab, you will explore some the basic functionality of Privileged Identit
 
 1. You are notified that more information is required, select **Next**.
 1. Enter your password, **SC900-Lab**.
-1. From the bottom left of the Microsoft Authenticator window, select **I want to setup a different method**.
-1. You are prompted to Choose a different method.  Next to where it says Authenticator app, select the down arrow key.   Select **Phone** and then select **Confirm**.
+
+1. In the Keep your account secure window, you have the option to select the method to use for MFA.  Microsoft Authenticator is one option. For expediency in this lab exercise, you will choose a different method.  Select **I want to setup a different method**.  From the Chose a different method pop-up window, select the **drop-down arrow** and select **Phone** then select **Confirm**.
+
+   ![](../Images/keep-secure.png)
+
 1. You are prompted to enter a phone number you would like to use. Ensure the country is correct, for your telephone number’s country code.  Enter your phone number, ensure that **Text me a code** is selected, then select **Next**.
+
+   ![](../Images/keep-acc-secure.png)
+
 1. Enter the 6 digit code you received on your phone and select **Next**. 
+
+   ![](../Images/enter-code.png)
+
 1. You will see a notification that your phone was registered successfully. Select **Next**, then select **Done**.
+
+   ![](../Images/sms-verified-1.png)
+
+   ![](../Images/default-sign-in.png)
+
 1. You are asked if you want to stay signed in.  Select **Yes**.
 1. The Activate User Administrator window appears.  You are required to enter a reason for the activation.  In the box that appears, enter any reason you want (max of 500 characters), then select **Activate**.
 1. You will see the status (3 stages of progress), as the activation is processed.
@@ -145,12 +187,21 @@ In this lab, you will explore some the basic functionality of Privileged Identit
 1. Close the window, by selecting the **X** on the top right corner of the screen.
 1. Close the Privileged Identity Management | Quick start window by selecting the **X** on the top right corner of the screen.
 1. Close the Identity Governance window by selecting the **X** on the top right corner of the screen.
-1. You are now back in the Contoso Azure Active Directory page.  As an Azure AD user administrator you can create users and groups, manage licenses, and more.   From the left navigation panel, select **Users**.
+1. You are now back in the Azure Active Directory page.  As an Azure AD user administrator you can create users and groups, manage licenses, and more.  From the left navigation panel, select **Users**.
 1. From the users list, select **Bianca Pisani**.
+
+   ![](../Images/aad-add-user-2.png)
+
 1. From the left navigation panel, select **Licenses**.
+
 1. Notice how Bianca has no licenses assigned.  From the top of the page, select **+ Assignments**. 
-1. From the select licenses list, select **Office 365 E3**.
-1. From the bottom of the page, select **Save**.  You will see a brief notification on the top right of page indicating licenses were successfully assigned.
+
+   ![](../Images/bianca-licences.png)
+
+1. Under Select licenses, select **Office 365 E3** then select the **Save** button on the bottom of the screen. A notification on the top right corner of the screen should show that license assignments succeeded.
+
+   ![](../Images/update-licence.png)
+
 1. Close out of the updated license assignments page, by selecting the **X** on the top right corner of the page.
 1. Sign out by selecting on the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
 1. The duration of the user admin role is limited to the time that was configured.

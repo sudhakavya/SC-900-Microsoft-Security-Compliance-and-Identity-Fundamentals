@@ -39,12 +39,15 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 
 10. Keep this window open.
 
-
 #### Task 2:  In this task you will go through the process of creating a conditional access policy in Azure AD.
 
-1. Open the browser tab, labeled Contoso – Microsoft Azure.   If you previously closed the browser tab, open Microsoft Edge and in the address bar enter portal.azure.com and sign in with your admin credentials, then select Azure Active Directory.  
+1. Open the browser tab, Enter portal.azure.com and sign in with your admin credentials, then select Azure Active Directory.  
 
-2. From the left navigation panel, select **Security**.
+2. Under Manage, select **Properties**, Click on **Manage Security defaults** Set the Enable Security defaults toggle to **No**, and choose the reason **My organization is using Conditional Access** for disabling and Select **Save**. You'll see confirmation that your security defaults saved.
+
+   ![](../Images/m365-properties.png)
+
+2. Go back to Azure Active Directory Home page. From the left navigation panel, select **Security**.
 
    ![](../Images/aad-security.png)
 
@@ -120,7 +123,7 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 
    ![](../Images/enter-code.png)
 
-   ![](../Images/sms-verified.png)
+   ![](../Images/sms-verified-1.png)
 
    ![](../Images/default-sign-in.png)
 
