@@ -80,7 +80,7 @@ In this lab, you will access Azure Active Directory.  Additionally, you will cre
 
 2. From the left navigation pane, select **Users**. Notice that your tenant is already configured with users. Select **+ New user** on the top of the page.
 
-   ![](../Images/aad-add-user.png)
+   ![](../Images/aad-add-user-upd.png)
 
 4. **Create User** should already be selected, if not select that option.
 
