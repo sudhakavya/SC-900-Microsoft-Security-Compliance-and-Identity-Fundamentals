@@ -69,7 +69,7 @@ In this lab, you will access Azure Active Directory.  Additionally, you will cre
 
     4. Group description: **Add an optional description to your group**.
 
-   ![](../Images/aad-group-create.png)
+   ![](../Images/aad-group-create-upd.png)
    
 
 #### Task 3:  In this task, you’ll learn how to create a new user in the Azure Active Directory and explore some of the services that can be managed at the user level.

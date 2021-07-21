@@ -30,7 +30,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 1. On the Active Directory page, select Groups and then select New group.
 
-   ![](../Images/aad-new-group2.png)
+   ![](../Images/aad-new-group2-upd.png)
 
 1. Populate the **New Group** fields as follows and Select **Create**
 
