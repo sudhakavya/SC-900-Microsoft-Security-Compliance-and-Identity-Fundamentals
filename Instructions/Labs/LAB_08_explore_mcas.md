@@ -37,21 +37,28 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
 
     **Note:** As for the new user there is no data visible, for now you can **view the Data Sample** 
 
-    ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/8-3.png)
+    ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/sc900-1.png)
+    
+    ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/sc900-2.png)
 
 1. From the top of the Cloud Discovery page, select the **Discovered apps** tab.  The discovered apps window provides a more detailed view of the discovered apps, including risk score, traffic, number of users and more.
         1. From any item on the list, select the **ellipses** in the actions’ column of the table.  Note the various options available, including the ability to tag an app as sanctioned or unsanctioned.  Select the ellipses, again, to close the actions box.
         1. Selecting a specific line item opens a details page for the specific app.  Select an item from the list.  For the selected item go through each tab on the top of the details page:  **Usage**, **Info, IP**, **Addresses**, **Users**, and **Alerts**. When you are done exploring the details page, return to discovered apps, by selecting **Discovered apps** from the left navigation panel.
     1. From the top of the page, select the **IP addresses** tab (this is equivalent to selecting IP addresses from the left navigation pane).  Here you will find data including number of transactions, amount of traffic and upload amounts, by IP addresses.  Note that you can also filter by specific IP address or export the data for further analysis.
     1. From the top of the page (or the left navigation pane) select **Users**.  This is the same type of information provided when you select IP addresses, but instead it is listed for individual users.  Here again, you filter by specific user and export data for further analysis.
+    1. Click on view all discovered app to view the detailed information.
 
+    ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/sc900-3.png)
+    
     ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/8-6.png)
 
 1. The information provided in these tabs is based on either snap-shot reports from traffic logs you manually upload from your firewalls and proxies or from continuous reports that analyze all logs that are forwarded from your network using Cloud App Security.
    
    1. Select the first option, **Create snapshot report**. Here you would fill in the requested details and upload traffic logs to generate and upload a report.  Select **Cancel**.  The data you are seeing for your lab tenant came from a Snapshot report, you can see this information on the top right corner of the screen.
     
-    ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/8-5.png)
+   ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/sc900-4.png)
+   
+   ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/sc900-5.png)
     
     1. To see the option for continuous reports, select the **Setting** on the top-right corner of the page and from the drop-down select **Log Collectors**.  There are no data sources connected, but this is where you would add a data source. Select the **Add data source** drop-down arrow to see the types of appliances that you can connect as a data source.  Select **Cancel** to exit.
 
