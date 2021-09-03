@@ -61,6 +61,10 @@ In this lab, you will explore the features and content available from the Servic
 
 1. From the top of the page, select **Industries & Regions**.  Choose **Regional Solutions**. Notice the different Regions listed.  Select **United Kingdom**.  
 
+   ![](../Images/module4/lab11/industries-regions.png)
+   
+   **NOTE**- If the options do not appear after selecting **Industries & Regions**, consider clearing the cache memory or try minimizing the screen using **Ctrl+Shift+(-)** button.
+
 1. You can select from different categories.  Including GRC Assessment Reports, Compliance Guides, and more.  As with the previous task, you can filter the list of documents displayed and you can select documents to download or save documents to your library.
 
 #### Task 2: In this task you will visit the Trust Center and navigate to Microsoft’s six, key privacy principles.
