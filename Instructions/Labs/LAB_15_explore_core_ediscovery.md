@@ -184,7 +184,7 @@ In this lab you will go through the steps required for setting up Core eDiscover
     1. In the window that opens, "Test Hold - Sales Search_Export", you will see an Export key, select **Copy to clipboard**.
 
          ![](../Images/module4/lab15/28.png)
-    1. From the top of the window, select **Download results**. A new browser page opens and a pop-up window displays asking if you want to open this file, select **Open**.
+    1. From the top of the window, select **Download results.**(**Note**: You must use Microsoft Edge or Internet Explorer to download). A new browser page opens and a pop-up window displays asking if you want to open this file, select **Open**.
 
          ![](../Images/module4/lab15/29.png)
          
