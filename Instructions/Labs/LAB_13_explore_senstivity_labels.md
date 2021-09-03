@@ -89,7 +89,7 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
 
     ![](../Images/module4/lab13/13.png)
 
-1. Select **Confidential-Finance Policy**.  A window opens that provides information about the policy.  This policy serves to publish the Confidential-Finance Policy labels and protects data that contains financial data for Contoso.  Also note how this policy is published to all. 
+1. Select **Department Policy**.  A window opens that provides information about the policy.  This policy serves to publish the department Policy labels and protects data that contains financial data for Contoso.  Also note how this policy is published to all. 
 
 1. Select **Edit** policy from the top of the window.
 
