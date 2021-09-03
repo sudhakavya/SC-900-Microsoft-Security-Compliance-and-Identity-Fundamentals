@@ -51,8 +51,6 @@ In this lab, you will explore the Microsoft 365 compliance center home page and 
 
      ![](../Images/module4/lab12/3.png)
      
-1. From the left navigation panel of the Microsoft 365 compliance center home page, notice that under Solutions only Catalog is displayed.  From the left navigation panel, select **...Show all**.  Notice how all the additional solutions appear under the solutions section.  
-1. Select **Show less** to hide.
 1. As the compliance admin, there may be a set of solutions that you manage for our organization and that you want to have always listed on the navigation panel.  To customize to your preferences select **Customize navigation**. 
 
      ![](../Images/module4/lab12/4.png)
@@ -62,6 +60,10 @@ In this lab, you will explore the Microsoft 365 compliance center home page and 
      ![](../Images/module4/lab12/4-1.png)
      
      ![](../Images/module4/lab12/4-2.png)
+     
+1. From the left navigation panel of the Microsoft 365 compliance center home page, notice that under Solutions only Catalog is displayed.  From the left navigation panel, select **...Show all**.  Notice how all the additional solutions appear under the solutions section.  
+
+1. Select **Show less** to hide.
      
 1. Leave the browser tab open.
 
