@@ -134,6 +134,8 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
 
 1. From the top menu bar, select **View**, then select **Reading view**.
 
+      ![](../Images/96.png)
+
 1. Notice how the document includes the watermark.  
 
 1. Close the Microsoft Word tabs that are open on your browser to exit from Word.
